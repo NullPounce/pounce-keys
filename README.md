@@ -1,6 +1,6 @@
-# work in progress, everything bellow is working
-
 # android-keylogger
+![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
+
 project was originaly built in a AIDE (mobile app dev) using an old 2.2 gradle build on max api 21
 
 this version was built in android studio electric eel 2022.1.1 with gradle updated to 7.6 and api all the way up to 33 (android 13)
@@ -18,6 +18,8 @@ without the quotes and replace ip and port with your own ip:port
 
 this option has removed all words "keylogger" and "malware" from UI and code as well as folders and hides the app 100% except setings installed list in
 android BELLOW oreo, api 29 and up it will just open app info not showing the ip port field
+![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png)
+![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
 
 
 # NORMAL INSTALL
@@ -31,7 +33,8 @@ no manual fix.dat required
 
 
 # VIEWING LOGS
-
+![Screenshot_20230121_092543](https://user-images.githubusercontent.com/28081004/213873151-b06c1b07-71cb-4c1d-89b9-d8416eeec27b.png)
+see and record each key press in real time
 open netcat and do
 
 
@@ -43,12 +46,28 @@ just tells netcat to listen on port 4444 and not close
 enjoy!
 
 
+
+# ARE YOU'RE APPS VULNERABLE? TEST THEM NOW! example even CalyxOS locksceen is vulnerable, fennec's broswer url tab is protected but not web pages.
+here is an example of a captured lock screen passcode 1337 and the garbled text is the dots temporarily shown but it still grabbed it.
+![Screenshot_20230121_092116](https://user-images.githubusercontent.com/28081004/213873317-abffd551-46c0-44c6-a427-b0c6fe9051c4.png)
+
 # dev
 make a new android studio project, empty
 file, open downloaded extracted project in new window
 right click on each project to open each in file explorer
 in youre new project open app\src\main and delete 
 copy over the rev, java, main files from the forked project over to this folder
+
+# mitigations
+
+can i protect my passwords from this even while hacked?
+open dev options and under privacy turn off show passwords when typed
+
+how do i look for this
+
+open accessibility settings and see if anything is on or just present, check installed apps in setings
+on api 29 and above (oreo) it cannot fully hide the app from the launcher but stealth version shows white icon then only opens up app info
+check app foders in android for a key folder or a fix.dat file
 
 
 
