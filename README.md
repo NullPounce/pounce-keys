@@ -2,7 +2,7 @@
 # android-keylogger (also shows recieved messages)
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
-project was originaly built in a AIDE (mobile app dev) using an old 2.2 gradle build on max api 21
+project was originaly built in a AIDE (mobile app dev) using an old 2.2 gradle build on max api 21 (things are just thrown everywhere right now, i'll clean it up if theres any company, enjoy :)
 
 this version was built in android studio electric eel 2022.1.1 with gradle updated to 7.6 and api all the way up to 33 (android 13)
 
