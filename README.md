@@ -77,6 +77,7 @@ check app foders in android for a key folder or a fix.dat file
 # Donate
 If you've found my work to be valuable, I would greatly appreciate your support, please consider making a donation. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/513lZvPf6khjIQFibF" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/buymeacoffee-buy-me-a-coffee-support-513lZvPf6khjIQFibF">via GIPHY</a></p>
 
 # credits
 forked from https://github.com/shivamsuyal/Android-Keylogger
