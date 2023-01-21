@@ -60,4 +60,4 @@ copy over the rev, java, main files from the forked project over to this folder
 
 # credits
 forked from https://github.com/shivamsuyal/Android-Keylogger
-icon <a href="https://www.flaticon.com/free-icons/cyber-attack" title="cyber attack icons">Cyber attack icons created by Taimoor D - Flaticon</a>
+icon <a href="https://www.flaticon.com/free-icon/keylogger_8147179?term=keylogger&page=1&position=42&origin=search&related_id=8147179</a>
