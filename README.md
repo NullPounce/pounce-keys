@@ -1,4 +1,4 @@
-# android-keylogger
+# android-keylogger (also shows recieved messages)
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
 project was originaly built in a AIDE (mobile app dev) using an old 2.2 gradle build on max api 21
