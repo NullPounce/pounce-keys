@@ -81,3 +81,4 @@ check app foders in android for a key folder or a fix.dat file
 forked from https://github.com/shivamsuyal/Android-Keylogger
 
 icon "https://www.flaticon.com/free-icon/keylogger_8147179?term=keylogger&page=1&position=42&origin=search&related_id=8147179
+      https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=search
