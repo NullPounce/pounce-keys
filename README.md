@@ -1,3 +1,5 @@
+# work in progress, everything bellow is working
+
 # android-keylogger
 project was originaly built in a AIDE (mobile app dev) using an old 2.2 gradle build on max api 21
 
