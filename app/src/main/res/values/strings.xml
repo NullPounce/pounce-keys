@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">\ </string>
+    <string name="hello_world">Hello world!</string>
+	<string name="accessibility_service_label">Keylogger</string>
+	<string name="accessibility_service_description">Don\'t worry its Just a malware</string>
+</resources>
