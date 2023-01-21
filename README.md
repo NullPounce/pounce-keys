@@ -74,8 +74,9 @@ check app foders in android for a key folder or a fix.dat file
 
 
 
-
-
+# Donate
+If you've found my work to be valuable, I would greatly appreciate your support, please consider making a donation. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
 
 # credits
 forked from https://github.com/shivamsuyal/Android-Keylogger
