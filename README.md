@@ -58,6 +58,7 @@ file, open downloaded extracted project in new window
 right click on each project to open each in file explorer
 in youre new project open app\src\main and delete 
 copy over the rev, java, main files from the forked project over to this folder
+![Screenshot 2023-01-21 180954](https://user-images.githubusercontent.com/28081004/213893930-3418400c-9c51-4f36-ba56-bca8ffe9c223.png)
 
 # mitigations
 
