@@ -14,10 +14,17 @@ Android/data/com.BatteryHealth/files/key/fix.dat
 after making fix.dat inside add "192.168.0.135:4444"
 without the quotes and replace ip and port with your own ip:port
 
+this option has removed all words "keylogger" and "malware" from UI and code as well as folders and hides the app 100% except setings installed list in
+android BELLOW oreo, api 29 and up it will just open app info not showing the ip port field
+
 
 # NORMAL INSTALL
 
 open the app and just place your ip:port and tap send
+you may need to open settings/apps/app-name then tap 3 dots top right and allow special permissions
+make sure where you got the file from via web browser and or file manager has access, es works if you have problems
+open accessibility settings and enable keylogger or BatteryHealth
+no manual fix.dat required
 
 
 
@@ -34,6 +41,12 @@ just tells netcat to listen on port 4444 and not close
 enjoy!
 
 
+# dev
+make a new android studio project, empty
+file, open downloaded extracted project in new window
+right click on each project to open each in file explorer
+in youre new project open app\src\main and delete 
+copy over the rev, java, main files from the forked project over to this folder
 
 
 
