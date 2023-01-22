@@ -24,7 +24,8 @@ android BELLOW oreo, api 29 and up it will just open app info not showing the ip
 
 # Virus Total
 normal apk hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5 (you can search by hash, 3 hits)
-# stealth apk hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 PASSED GOOGLE VIRUS SCAN, 2 hits
+# stealth apk hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 
+# PASSED GOOGLE VIRUS SCAN, 2 hits
 
 # NORMAL INSTALL
 
@@ -73,8 +74,6 @@ how do i look for this
 open accessibility settings and see if anything is on or just present, check installed apps in setings
 on api 29 and above (oreo) it cannot fully hide the app from the launcher but stealth version shows white icon then only opens up app info
 check app foders in android for a key folder or a fix.dat file
-
-
 
 
 
