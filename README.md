@@ -22,6 +22,9 @@ android BELLOW oreo, api 29 and up it will just open app info not showing the ip
 ![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png)
 ![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
 
+# Virus Total
+normal apk hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5 (you can search by hash, 3 hits)
+# stealth apk hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 PASSED GOOGLE VIRUS SCAN, 2 hits
 
 # NORMAL INSTALL
 
