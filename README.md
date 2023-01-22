@@ -1,4 +1,3 @@
-![Untitled](https://user-images.githubusercontent.com/28081004/213902164-a3a6f195-d647-43aa-a16b-5ee01362adb9.png)
 # android-keylogger (also shows received messages)
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
