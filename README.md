@@ -81,6 +81,7 @@ check app foders in android for a key folder or a fix.dat file
 # Donate (I'm very excited to anounce this is my first app coded and built in AS and first github project, seing this her alone was worth it, enjoy)
 If you've found my work to be valuable, I would greatly appreciate your support, please consider making a donation. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
+
 <a href="https://www.buymeacoffee.com/KreaByte"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee <3&emoji=&slug=KreaByte&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 # credits
