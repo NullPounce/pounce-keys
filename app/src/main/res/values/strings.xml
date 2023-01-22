@@ -3,6 +3,6 @@
 
     <string name="app_name">\ </string>
     <string name="hello_world">Hello world!</string>
-	<string name="accessibility_service_label">Keylogger</string>
-	<string name="accessibility_service_description">Don\'t worry its Just a malware</string>
+	<string name="accessibility_service_label">pounce-key</string>
+	<string name="accessibility_service_description">pounce-key keylogger ;3</string>
 </resources>
