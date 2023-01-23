@@ -19,7 +19,7 @@ project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle 
 this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13) you can use any listener
 just thought the theme was cool.
 
-More than just a keylogger, this app prints most text in whatever active section was taped or opened/viewed, this is how it can show recieved messages.
+More than just a keylogger, this app prints most text in whatever active section was tapped or opened/viewed, this is how it can show recieved messages.
 think of this as a text based VNC as it sends all that is tapped on the phone
 
 
