@@ -2,7 +2,7 @@
 # android-keylogger (also shows received messages)
 To-Do
 - [ ] clean up this mess
-- [X] make a listener (in release)
+- [X] make a listener (in release) MAKING A COOLER ONE RIGHT NOW :)
 - [ ] work on theme
 - [X] Runs In Background
 - [ ] discord listener bot
