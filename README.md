@@ -1,5 +1,14 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys)
 # android-keylogger (also shows received messages)
+To-Do
+- clean up this mess
+- [X] make a listener (in release)
+- work on theme
+- [X] Runs In Background
+- discord listener bot
+- [X] Support Android v5 - v13
+- update message sender for clean output and or update listener
+- [X] Bypass PlayProtect
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
 project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21 (things are just thrown everywhere right now, I'll clean it up if there's any company, enjoy :)
