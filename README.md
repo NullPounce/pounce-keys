@@ -39,7 +39,7 @@ normal APK hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5
 
 # NORMAL INSTALL
 
-open the app and just place your IP:PORT and tap send
+open the app and just place your IP:PORT and tap send (the ip of the device you will listen on, ie my java listener or netcat with -k switch)
 you may need to open settings/apps/app-name then tap 3 dots top right and allow special permissions
 make sure where you got the file from via web browser and or file manager has access,ES works if you have problems
 open accessibility settings and enable keylogger or BatteryHealth
