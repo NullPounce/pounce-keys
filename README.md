@@ -1,23 +1,26 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys)
 # android-keylogger (also shows received messages)
 To-Do
-- clean up this mess
+- [ ] clean up this mess
 - [X] make a listener (in release)
-- work on theme
+- [ ] work on theme
 - [X] Runs In Background
-- discord listener bot
+- [ ] discord listener bot
 - [X] Support Android v5 - v13
-- update message sender for clean output and or update listener
+- [ ] update message sender for clean output and or update listener
 - [X] Bypass PlayProtect
-- add guides and gifs, well as renaming service
-- more stealth in android 10 and up (need more than a white app icon that opens to app info) api makes it not hideable without root
-- hide/bind keylogger with another working app for hiding in plain sight
+- [ ] add guides and gifs, well as renaming service
+- [ ] more stealth in android 10 and up (need more than a white app icon that opens to app info) api makes it not hideable without root
+- [ ] hide/bind keylogger with another working app for hiding in plain sight
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
 project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21 (things are just thrown everywhere right now, I'll clean it up if there's any company, enjoy :)
 
 this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13) you can use any listener
 just thought the theme was cool.
+
+More than just a keylogger, this app prints most text in whatever active section was taped or opened/viewed, this is how it can show recieved messages.
+think of this as a text based VNC as it sends all that is tapped on the phone
 
 
 # STEALTH
