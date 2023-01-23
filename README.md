@@ -9,6 +9,9 @@ To-Do
 - [X] Support Android v5 - v13
 - update message sender for clean output and or update listener
 - [X] Bypass PlayProtect
+- add guides and gifs, well as renaming service
+- more stealth in android 10 and up (need more than a white app icon that opens to app info) api makes it not hideable without root
+- hide/bind keylogger with another working app for hiding in plain sight
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
 project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21 (things are just thrown everywhere right now, I'll clean it up if there's any company, enjoy :)
