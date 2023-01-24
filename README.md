@@ -1,4 +1,5 @@
-![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
+# Massive one of a kind filtered listerner in the works, many milestones reached, see bottom.
 # android-keylogger (also shows received messages)
 To-Do
 - [ ] clean up this mess
@@ -7,7 +8,7 @@ To-Do
 - [X] Runs In Background
 - [ ] discord listener bot
 - [X] Support Android v5 - v13
-- [ ] update message sender for clean output and or update listener
+- [X] update message sender for clean output and or update listener
 - [X] Bypass PlayProtect
 - [ ] add guides and gifs, well as renaming service
 - [ ] more stealth in android 10 and up (need more than a white app icon that opens to app info) api makes it not hideable without root
@@ -122,3 +123,19 @@ https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=sea
       
    https://www.freepik.com/free-vector/cute-cat-computer-with-mouse-cartoon-vector-icon-illustration-animal-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_18537569.htm#query=cat%20keyboard&position=1&from_view=search&track=sph#position=1&query=cat%20keyboard
 https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6342161.htm
+
+
+# custom coded listener features (I have not released this yet)
+- [X] add prompt for users ip and port
+- [X] auto add users ip and auto add port 444 in text box
+- [X] added auto scrolling
+- [X] GUI
+- [X] filters to clean up output like no other to a sane human readable format
+- [X] Sort keyloggs by app (re-wrote it about 20 times to clean up sending 1 leter per line) :) huge project goal
+- [ ] multiple client support filtering
+- [ ] custom sorting
+- [X] cute cat icon
+
+this should be the star of the project as you should be able to use it to sort any messy keylogger output you can catch with any shell,
+ this will be the listener of android keyloggers ro rule them all, every single one shows messy output as you can see in the picture.
+Leave a star star for some motivation if you like my work or would love to see this update, very fun for me to share this with you guys.
