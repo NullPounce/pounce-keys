@@ -135,6 +135,7 @@ https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6
 - [ ] multiple client support filtering
 - [ ] custom sorting
 - [X] cute cat icon
+- [X] log date and time
 
 this should be the star of the project as you should be able to use it to sort any messy keylogger output you can catch with any shell,
  this will be the listener of android keyloggers ro rule them all, every single one shows messy output as you can see in the picture.
