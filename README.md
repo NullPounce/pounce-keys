@@ -1,6 +1,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
 # Massive one of a kind filtered listerner in the works, many milestones reached, see bottom.
-# android-keylogger (also shows received messages)
+# android-keylogger (also shows received messages, even when locked and hidden)
 To-Do
 - [ ] clean up this mess
 - [X] make a listener (in release) MAKING A COOLER ONE RIGHT NOW :)
