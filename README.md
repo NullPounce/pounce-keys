@@ -18,15 +18,16 @@ but even worse, so i coded these tabs to wait for a certain word like "Signal" f
       up to 2 mins. during testing MOST keys stay in their respective tabs. may try to edit the filter some more.
 
 # Listener Features
-- reads hidden notifications in locked state
-- grabs almost all text on the screen the user is looking at.
-- filtered tabs for different apps to reduce logs for easy reading (it does its best and 100 times better than straight logs, see for youreself
-- 200 lines of error free custom code 
-- gets pin code
-- auto scrolling
-- works in windows and linux as a .exe, .java, and .jar
-- asks user for ip and port with autofill (double check correct ip and port)
-- cute cat icon 
+
+✅ reads hidden notifications in locked state
+✅ grabs almost all text on the screen the user is looking at.
+✅ filtered tabs for different apps to reduce logs for easy reading (it does its best and 100 times better than straight logs, see for youreself
+✅ 200 lines of error free custom code 
+✅ gets pin code
+✅ auto scrolling
+✅ works in windows and linux as a .exe, .java, and .jar
+✅ asks user for ip and port with autofill (double check correct ip and port)
+✅ cute cat icon 
 
 
 
