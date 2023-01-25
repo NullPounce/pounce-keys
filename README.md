@@ -1,7 +1,9 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
+
+![text2photo-92c06359f008719c1d62886d60d75e8a](https://user-images.githubusercontent.com/28081004/214497666-7810e369-d272-4806-96f0-344729a3ec6c.jpeg)
+
 # android-keylogger java listener update!
-![Screenshot 2023-01-24 232719](https://user-images.githubusercontent.com/28081004/214481086-70f933da-e438-4ee8-9a41-b7de22a4b58a.png)
 note that it may print logs in all tabs at times but the filter works.
 this is not perfect but i did my best to sort some of the output because at first it printed 1 letter per row reading
 t
@@ -132,7 +134,8 @@ check app folders in android for a key folder or a fix.dat file
 
 
 
-# Donate
+# Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
+
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
