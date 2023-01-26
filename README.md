@@ -1,9 +1,9 @@
-![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
+![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
 
 ![text2photo-92c06359f008719c1d62886d60d75e8a](https://user-images.githubusercontent.com/28081004/214497666-7810e369-d272-4806-96f0-344729a3ec6c.jpeg)
 
-# android-keylogger java listener update!
+# android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here. 
 note that it may print logs in all tabs at times but the filter works.
 this is not perfect but i did my best to sort some of the output because at first it printed 1 letter per row reading
 t
@@ -39,6 +39,7 @@ but even worse, so i coded these tabs to wait for a certain word like "Signal" f
 
 ✅ cute cat icon 
 
+✅ logs date and time
 
 
 
@@ -69,8 +70,8 @@ without the quotes and replace IP and port with your own IP:PORT
 this option has removed all words "keylogger" and "malware" from UI and code as well as folders and hides the app 100% except settings installed list in
 android BELLOW Oreo, API 29 and up it will just open app info not showing the IP port field
 
-![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png)
-![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
+![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png) ![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
+
 
 # Virus Total
 normal APK hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5 (you can search by hash, 3 hits)
@@ -91,18 +92,8 @@ no manual fix.dat required
 
 # VIEWING LOGS
 ![Screenshot 2023-01-25 001403](https://user-images.githubusercontent.com/28081004/214485413-54df17f6-7478-4d15-bbe0-da02d2d3618d.png)
-new updated logger with gui
 
-see and record each key press in real time
-open net cat and do
-
-
-for windows, use net cat 5.59 beta
-.\ncat.exe -klvp 4444
-
-just tells net cat to listen on port 4444 and not close
-
-for java just download the listener in release and type javac MessageListener.java then java MessageListener
+new updated logger with gui, see and record each key press in real time
 
 enjoy!
 
