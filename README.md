@@ -3,7 +3,7 @@
 
 ![text2photo-92c06359f008719c1d62886d60d75e8a](https://user-images.githubusercontent.com/28081004/214497666-7810e369-d272-4806-96f0-344729a3ec6c.jpeg)
 
-# android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here. 
+# android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here. fixed icon, run jar or exe next to it, updated release.
 note that it may print logs in all tabs at times but the filter works.
 this is not perfect but i did my best to sort some of the output because at first it printed 1 letter per row reading
 t
