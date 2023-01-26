@@ -7,8 +7,6 @@ if you would like to request a feature. this filter update was very hard work, p
 
 # android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here.
 
-# THE FILTER NOW WORKS 100%, you wont get the same message in all tabs now
-
 # Listener Features
 
 ✅ reads hidden notifications in locked state
