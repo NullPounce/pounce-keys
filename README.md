@@ -15,7 +15,7 @@
 
 ✅ grabs almost all text on the screen the user is looking at.
 
-✅ filtered tabs for different apps to reduce logs for easy reading (it does its best and 100 times better than straight logs, see for youreself
+✅ filtered tabs for different apps to reduce logs for easy reading 
 
 ✅ 200 lines of error free custom code 
 
@@ -38,7 +38,7 @@
 
 no need to build ip or port into apk before install
 
-project was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21
+project (keylogger not my own custom listener) was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21
 
 this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13)
 
