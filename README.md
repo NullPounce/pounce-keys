@@ -3,7 +3,10 @@
 # Updated working filter, see release! 
 no more extra messages in other tabs, now only appends text from logs to respective app tab, my contact is currently in the java file for the listener
 if you would like to request a feature. this filter update was very hard work, please enjoy the update and check it out, night and day difference.
-![text2photo-92c06359f008719c1d62886d60d75e8a](https://user-images.githubusercontent.com/28081004/214497666-7810e369-d272-4806-96f0-344729a3ec6c.jpeg)
+
+![2023-01-26-23-45-59](https://user-images.githubusercontent.com/28081004/215011657-baf35da7-4314-4528-a546-5d8de0e7b67f.gif)![2023-01-26-23-46-00](https://user-images.githubusercontent.com/28081004/215011715-c975098a-fec6-4a21-96cb-fb462e3d575f.gif)
+
+
 
 # android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here.
 
