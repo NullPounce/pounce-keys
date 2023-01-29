@@ -1,6 +1,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
 # Pounce Keys 100% working build!
+delay in listener is only due to recording
 
 ![pounceDemo](https://user-images.githubusercontent.com/28081004/215348652-8bd13319-4622-4b77-9ef6-0fd92a1c95cb.gif) ![demo](https://user-images.githubusercontent.com/28081004/215348661-c424c112-188b-4b9a-9066-2cf7185fecae.gif)
 
