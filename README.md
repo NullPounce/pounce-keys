@@ -5,7 +5,8 @@
 
 ![2023-01-26-23-45-59](https://user-images.githubusercontent.com/28081004/215011657-baf35da7-4314-4528-a546-5d8de0e7b67f.gif)![2023-01-26-23-46-00](https://user-images.githubusercontent.com/28081004/215011715-c975098a-fec6-4a21-96cb-fb462e3d575f.gif)
 
-# new update coming soon with a save logs button and some color!
+# new update coming soon with a save logs button and some color! 
+# Subscribe to updates on my ko-fi!
 ![update](https://user-images.githubusercontent.com/28081004/215234748-1aec0566-6530-420c-9221-2c3ef5ada46b.png)
 
 # android-keylogger java listener update! (thank you for my first star! much appreciated, still cleaning things up in here.
