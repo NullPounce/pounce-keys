@@ -1,6 +1,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
-# Updated working filter, see release! 
+# Updated working filter, see release! (100% working filter in progress)
 
 
 ![2023-01-26-23-45-59](https://user-images.githubusercontent.com/28081004/215011657-baf35da7-4314-4528-a546-5d8de0e7b67f.gif)![2023-01-26-23-46-00](https://user-images.githubusercontent.com/28081004/215011715-c975098a-fec6-4a21-96cb-fb462e3d575f.gif)
