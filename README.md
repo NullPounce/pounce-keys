@@ -8,13 +8,13 @@
 
 # Listener Features
 
-✅ reads hidden notifications in locked state
+✅ reads hidden notifications in locked state (grabs google code before owner sees it)
 
 ✅ grabs almost all text on the screen the user is looking at.
 
-✅ filtered tabs for different apps to reduce logs for easy reading 
+✅ filtered tabs for different apps to reduce logs for easy reading (many revissions and re-compiles with many high filtered precise tweaks to make this work)
 
-✅ 200 lines of error free custom code 
+✅ 300+ lines of error free custom code 
 
 ✅ gets pin code
 
@@ -26,7 +26,7 @@
 
 ✅ cute cat icon 
 
-✅ logs date and time
+✅ logs date and time AND SAVES THEM
 
 
 
