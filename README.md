@@ -1,6 +1,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
-# thank you for the 5th star :) ⭐ ![image](https://user-images.githubusercontent.com/28081004/215366065-51869c9c-e271-4063-93f5-f6557c62b5b4.png)
+# thank you for the 6th star :) ⭐ ![image](https://user-images.githubusercontent.com/28081004/215366065-51869c9c-e271-4063-93f5-f6557c62b5b4.png)
 
 wow! very gratefull for the 4th and 5th.
 seeing these 5 stars and downloads and views makes all of this very worth it to be able to share this with you awesome people
