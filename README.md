@@ -5,6 +5,7 @@
 seeing these 7 stars and downloads and views makes all of this very worth it to be able to share this with you awesome people
 
 # Pounce Keys 100% working build!
+now works in kali linux on linode, just "sudo ufw allow 4444" then run the jar before upgrading jdk, see bellow.
 delay in listener is only due to recording
 
 
@@ -17,6 +18,8 @@ delay in listener is only due to recording
 ✅ reads hidden notifications in locked state (grabs google code before owner sees it)
 
 ✅ grabs almost all text on the screen the user is looking at.
+
+✅ works over WAN
 
 ✅ filtered tabs for different apps to reduce logs for easy reading (many revissions and re-compiles with many high filtered precise tweaks to make this work)
 
