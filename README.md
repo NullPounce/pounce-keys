@@ -1,9 +1,8 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) ![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com) ![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social)
 
-# thank you for the 6th star :) ⭐ ![image](https://user-images.githubusercontent.com/28081004/215366065-51869c9c-e271-4063-93f5-f6557c62b5b4.png)
+# thank you for the 7th star :) ⭐ ![image](https://user-images.githubusercontent.com/28081004/215366065-51869c9c-e271-4063-93f5-f6557c62b5b4.png)
 
-wow! very gratefull for the 4th and 5th.
-seeing these 5 stars and downloads and views makes all of this very worth it to be able to share this with you awesome people
+seeing these 7 stars and downloads and views makes all of this very worth it to be able to share this with you awesome people
 
 # Pounce Keys 100% working build!
 delay in listener is only due to recording
@@ -80,6 +79,14 @@ you may need to open settings/apps/app-name then tap 3 dots top right and allow 
 make sure where you got the file from via web browser and or file manager has access,ES works if you have problems
 open accessibility settings and enable keylogger or BatteryHealth
 no manual fix.dat required
+
+for linux
+jdk19 
+wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+
+sudo apt-get -qqy install ./jdk-19_linux-x64_bin.deb
+
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
 
 # Stealth install
 
