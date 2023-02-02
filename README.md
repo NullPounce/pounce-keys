@@ -181,6 +181,10 @@ check app folders in android for a key folder or a fix.dat file
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
 thank you for the 8th star :)⭐
 
+TODO:
+
+maybe add a app name for the stealth option to prevent the app showing at the top of installed
+
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
