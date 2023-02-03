@@ -47,7 +47,8 @@
 
 delay in listener is only due to recording
 
-
+# Update
+added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list
 
 
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
