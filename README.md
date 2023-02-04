@@ -191,7 +191,7 @@ check app folders in android for a key folder or a fix.dat file
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the 10th star :)⭐
+thank you for the 10th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
 
 
 
