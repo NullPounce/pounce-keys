@@ -45,11 +45,7 @@
 
 sorry for the low quality, 10mb gif size limit
 
-# Update
-added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list and made a detailed stealth guide
-also you can just turn on usb debug by itself then use something like mobydroid or another gui adb file manager to adb connect "ip" and install and config
-the app, could even use scrcpy and turn on the servie via gui when their not looking. long as usb debug is on and always allow was pressed your good to
-work remote and adb push the app and dat file
+
 
 
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
@@ -195,6 +191,7 @@ installed apps section in settings, could show as a blank icon as ZBatteryHealth
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
 thank you for the 10th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
+adding a clear logs button may be in the future.
 
 
 
