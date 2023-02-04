@@ -47,6 +47,9 @@ sorry for the low quality, 10mb gif size limit
 
 # Update
 added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list and made a detailed stealth guide
+also you can just turn on usb debug by itself then use something like mobydroid or another gui adb file manager to adb connect "ip" and install and config
+the app, could even use scrcpy and turn on the servie via gui when their not looking. long as usb debug is on and always allow was pressed your good to
+work remote and adb push the app and dat file
 
 
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
@@ -188,16 +191,14 @@ check app folders in android for a key folder or a fix.dat file
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the 8th star :)⭐
+thank you for the 10th star :)⭐
 
-TODO:
 
-maybe add a app name for the stealth option to prevent the app showing at the top of installed
 
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 8 stars! thank you guys so much, glad to announce WAN support.
+android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 10 stars! thank you guys so much, glad to announce WAN support.
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
