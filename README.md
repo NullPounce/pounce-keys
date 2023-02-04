@@ -38,14 +38,12 @@
 
 ✅ PASSED GOOGLE VIRUS SCAN
 
-![ezgif-1-3870480794](https://user-images.githubusercontent.com/28081004/216004733-5f6f5584-80c8-4724-aed4-dd70bd151f20.gif)
+![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
 
 
 
 
-
-
-delay in listener is only due to recording
+sorry for the low quality, 10mb gif size limit
 
 # Update
 added a name "zBatteryHealth" to the stealth version to avoid showing at the top of the installed apps list and made a detailed stealth guide
