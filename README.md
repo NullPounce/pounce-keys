@@ -20,7 +20,7 @@
     <br />
     <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
     ·
-    <a href="https://ko-fi.com/NullPounce">Support Me</a>
+    <a href="https://ko-fi.com/pounce">Support Me</a>
     ·
     <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
   </p>
