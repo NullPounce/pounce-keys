@@ -35,7 +35,7 @@
 
 
 
-# Update: changed my username
+
 
 ✅ PASSED GOOGLE VIRUS SCAN
 
@@ -48,7 +48,9 @@ sorry for the low quality, 10mb gif size limit
 
 
 
-
+# Update: changed my username
+TODO:
+add tab for reddit, twitter, firefox
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
 
 ✅ reads hidden notifications in locked state (grabs google code before owner sees it)
