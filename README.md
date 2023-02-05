@@ -223,4 +223,6 @@ https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6
 
 current setup is kali linux in linode with pounce-keys running on an open port using ufw to only allow certain ip's
 then using realVNC on my phone wiht termux for a ssh connction to run vnc local to remote into kali and view logs on my phone
-when i want to, then i have no machine to remote into a local pc with scrcpy for remote viwing and mobydroid for files and apks
+when i want to, then i have no machine to remote into a local pc with scrcpy for remote viewing and mobydroid for files and apks
+i can later use mobydroid to delete the real malwarebytes apk on a phone and push over the keylogger apk with the same icon
+and same service name, app will just say not installed when pressed, perfect for people who set and forget apps with a service
