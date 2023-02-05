@@ -193,7 +193,7 @@ installed apps section in settings, could show as a blank icon as ZBatteryHealth
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the 10th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
+thank you for the 12th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
 adding a clear logs button may be in the future.
 
 
@@ -201,7 +201,7 @@ adding a clear logs button may be in the future.
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 10 stars! thank you guys so much, glad to announce WAN support.
+android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 12 stars! thank you guys so much, glad to announce WAN support.
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
