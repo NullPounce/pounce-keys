@@ -151,7 +151,7 @@ no manual fix.dat required
 
 
 
-# Stealth install
+# Stealth install tldr
 
 ![stealth_install](https://user-images.githubusercontent.com/28081004/215221291-f4a05ea5-448d-4b1d-ade3-8bec23c53a70.gif)
 
