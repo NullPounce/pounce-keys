@@ -220,3 +220,7 @@ https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=sea
 https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6342161.htm
 
 ⚖️ Legal Disclaimer: For Educational Purpose Only
+
+current setup is kali linux in linode with pounce-keys running on an open port using ufw to only allow certain ip's
+then using realVNC on my phone wiht termux for a ssh connction to run vnc local to remote into kali and view logs on my phone
+when i want to, then i have no machine to remote into a local pc with scrcpy for remote viwing and mobydroid for files and apks
