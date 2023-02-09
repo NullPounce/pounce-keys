@@ -36,7 +36,7 @@
 
 
 
-
+#  (new hardcoded ip+port apk in the works for more stealth)
 ✅ PASSED GOOGLE VIRUS SCAN
 
 ![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
