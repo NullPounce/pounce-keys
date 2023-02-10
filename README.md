@@ -36,7 +36,10 @@
 
 
 
-#  (new hardcoded ip+port apk in the works for more stealth)
+#  UPDATE:
+working on a new version that hard codes the ip and port for more stealth and ease of use, removing gui etc,
+also working on some form of encryption. this will take some time, follow me on kofi for email updates.
+
 ✅ PASSED GOOGLE VIRUS SCAN
 
 ![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
