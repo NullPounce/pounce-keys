@@ -36,9 +36,17 @@
 
 
 
-#  UPDATE:
-working on a new version that hard codes the ip and port for more stealth and ease of use, removing gui etc,
-also working on some form of encryption. this will take some time, follow me on kofi for email updates.
+#  UPDATE: 2/25 thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a> (check out my WIP github io site)
+financially findindg the extra time to update this has been challenging
+- For inquiries on a custom paid design please do a issue request or find my email in my CV on my github io site or give a star or support me on kofi
+- I have a form of working encryption but no local way to decrypt live in the gui (web-site tools work)
+- new version wont capture clipboard text to avoid toast in newer android versions IE more stealth
+- new versions of apk and listener will have updated tabs to show if it was typed and a non verbose version to only send keystrokes
+- new version will have the ip hard coded with no little to no gui indicating what it is if opened
+- will have new stealth in plain sight versions...
+
+
+- I'm still working on this when I can
 
 ✅ PASSED GOOGLE VIRUS SCAN
 
@@ -51,11 +59,10 @@ sorry for the low quality, 10mb gif size limit
 
 
 
-# Update: changed my username, updating this and adding full video guides on more stealth will be a bit)
 
 
-TODO:
-add tab for reddit, twitter, firefox (the message sender does not use ssl as of right now)
+
+
 # Listener Features ![Linode](https://img.shields.io/badge/Supports-Linode-green)  ![Linode](https://img.shields.io/badge/Kali-Linux-blue)
 
 ✅ reads hidden notifications in locked state (grabs google code before owner sees it)
@@ -197,15 +204,13 @@ installed apps section in settings, could show as a blank icon as ZBatteryHealth
 
 
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the 13th star :)⭐ anysoft keyboard and malwarebytes has no issue with apk
+thank you for the starstruck badge :)⭐ anysoft keyboard and malwarebytes has no issue with apk
 
 
 
 
 
-I'm very excited to announce this is my first app coded and built in AS and first GitHub project, seeing this here alone was worth it, I seen i got
-5 downloads and went to tidy this up a little bit I got so excited. Please leave a star if you like this project, would love to move up in the
-android-keylogger tag :) java listener is 1 of a kind, original content without forks. Wow 13 stars! thank you guys so much, glad to announce WAN support.
+
 
 If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
 
@@ -214,7 +219,7 @@ If you've found my work to be valuable, I would greatly appreciate your support,
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
 
 # credits
-forked from https://github.com/shivamsuyal/Android-Keylogger
+original keylog apk forked from https://github.com/shivamsuyal/Android-Keylogger (current version barely uses its code)
 
 icon "https://www.flaticon.com/free-icon/keylogger_8147179?term=keylogger&page=1&position=42&origin=search&related_id=8147179
 https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=search
@@ -224,8 +229,4 @@ https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6
 
 ⚖️ Legal Disclaimer: For Educational Purpose Only
 
-current setup is kali linux in linode with pounce-keys running on an open port using ufw to only allow certain ip's
-then using realVNC on my phone wiht termux for a ssh connction to run vnc local to remote into kali and view logs on my phone
-when i want to, then i have no machine to remote into a local pc with scrcpy for remote viewing and mobydroid for files and apks
-i can later use mobydroid to delete the real malwarebytes apk on a phone and push over the keylogger apk with the same icon
-and same service name, app will just say not installed when pressed, perfect for people who set and forget apps with a service
+note edit ufw rules if hosted online.
