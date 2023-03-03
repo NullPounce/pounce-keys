@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/NullPounce/Pounce-Keys) 
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys) 
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/NullPounce/Pounce-Keys)    
-
+![GitHub Repo 2.0 stars](https://img.shields.io/github/downloads/nullpounce/pounce-keys/2.0/total) 
 
 <!-- PROJECT LOGO -->
 <br />
@@ -12,7 +12,9 @@
   <a href="https://github.com/NullPounce/pounce-keys">
     <img src="images/logo.png" alt="Logo" width="150" height="150">
   </a>
-
+<a href="https://www.nullpounce.com/">                                                  
+    <img src="https://www.nullpounce.com/assets/demo.gif">
+  </a>
   <h3 align="center">POUNCE-KEYS</h3>
 
   <p align="center">
@@ -28,25 +30,16 @@
 
 
 
-  
+
  
+my site
+<a href="https://www.nullpounce.com/">                                                  
+    <img src="https://www.nullpounce.com/assets/000010.gif">
+  </a>
 
 
-
-
-
-
-#  UPDATE: 2/25 thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a> (check out my WIP github io site)
-financially findindg the extra time to update this has been challenging
-- For inquiries on a custom paid design please do a issue request or find my email in my CV on my github io site or give a star or support me on kofi
-- I have a form of working encryption but no local way to decrypt live in the gui (web-site tools work)
-- new version wont capture clipboard text to avoid toast in newer android versions IE more stealth
-- new versions of apk and listener will have updated tabs to show if it was typed and a non verbose version to only send keystrokes
-- new version will have the ip hard coded with no little to no gui indicating what it is if opened
-- will have new stealth in plain sight versions...
-
-
-- I'm still working on this when I can
+#  New Release 03/03 thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
+I worked very hard on this version to hard code the ip instead. check the release section and enjoy!
 
 ✅ PASSED GOOGLE VIRUS SCAN
 
@@ -55,7 +48,7 @@ financially findindg the extra time to update this has been challenging
 
 
 
-sorry for the low quality, 10mb gif size limit
+
 
 
 
@@ -106,15 +99,13 @@ cd pounce-keys/Listener/java
 java -jar MessageListener.jar
 sudo ufw allow 4444 "if on linode or on WAN" no need for open ports on android's side
 ```
-
-
-
+```
+download APK Editor studio and open up the apk and search for "192.168.0.135"
+and replace the ip in the two smali files mainactivity and messegesener with your
+own ip and save the apk thanks to 2.0 release
+```
 
 # STEALTH (tldr under this)
-# I will make a full video showing how to build apk with any app name and icon then remotely install in place of old app) "if i get any support" or i just find the time.
-this would allow you to (after adb into device) delete apk thats never used, then replace with your own custom app, you could
-delete a downloaded files app they dont use and build the keylogger to use the same name and icon, better yet i can show how to copy
-malwarebytes service name! you can easily just ctrl+F the code in AS and edit the names and see where the icon goes.
 
 TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiden icon in some cases
 UPDATE: if all fails try long pressing the home screen to open launcher settings for a hide apps option.
@@ -180,11 +171,7 @@ Example even CalyxOS lock-sceen is vulnerable, fennec's browser URL tab is prote
 
 
 # dev
-make a new android studio project, empty
-file, open downloaded extracted project in new window
-right click on each project to open each in file explorer
-in you're new project open app\src\main and delete 
-copy over the rev, java, main files from the forked project over to this folder
+
 ![Screenshot 2023-01-21 180954](https://user-images.githubusercontent.com/28081004/213893930-3418400c-9c51-4f36-ba56-bca8ffe9c223.png)
 
 # mitigations
