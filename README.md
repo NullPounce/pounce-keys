@@ -38,7 +38,7 @@ my site
   </a>
 
 
-#  New Release 03/03 thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
+#   Release 2.1 stealth/ip hardcode. thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
 I worked very hard on this version to hard code the ip instead. check the release section and enjoy!
 
 ✅ PASSED GOOGLE VIRUS SCAN
