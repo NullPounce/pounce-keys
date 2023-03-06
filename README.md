@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/NullPounce/Pounce-Keys) 
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys) 
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/NullPounce/Pounce-Keys)    
-![GitHub Repo 2.0 stars](https://img.shields.io/github/downloads/nullpounce/pounce-keys/2.0/total) 
+![GitHub Repo 2.2 stars](https://img.shields.io/github/downloads/nullpounce/pounce-keys/2.1/total) 
 
 <!-- PROJECT LOGO -->
 <br />
@@ -32,13 +32,13 @@
 
 
  
-my site
+my site (very wip, keeps breaking)
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://www.nullpounce.com/assets/000010.gif">
   </a>
 
 
-#   Release 2.1 stealth/ip hardcode. thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
+#  Release 2.1 stealth / iphardcode. thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
 I worked very hard on this version to hard code the ip instead. check the release section and enjoy!
 
 ✅ PASSED GOOGLE VIRUS SCAN
