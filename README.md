@@ -80,7 +80,7 @@ I worked very hard on this version to hard code the ip instead. check the releas
 
 ✅ logs date and time AND SAVES THEM
 
-# quick use
+# quick use (use latest release)
 
 
 jdk19 
