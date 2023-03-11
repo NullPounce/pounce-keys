@@ -80,7 +80,10 @@ I worked very hard on this version to hard code the ip instead. check the releas
 
 ✅ logs date and time AND SAVES THEM
 
-# quick use (use latest release)
+# quick use (use latest release) 
+
+android 9 and bellow for now replace icon with transparent one in a icon editor
+- this is for phones with dynamic app icons or whatever it was if the icons shows for you.
 
 
 jdk19 
