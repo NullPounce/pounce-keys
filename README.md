@@ -35,10 +35,12 @@ my site (very wip, keeps breaking)
   </a>
 
 
-#  HUGE UPDATE! Supports sending logs to Gmail and Discord (Visit my Kofi for gmail and discord images of them in action
+#  HUGE UPDATE! Supports sending logs to Gmail and Discord 
 notes in release section
 
-
+![Screenshot 2023-03-12 041815](https://user-images.githubusercontent.com/28081004/224581601-aa556135-17a4-474d-8751-f76f467d09a4.png)
+![Screenshot 2023-03-12 150758](https://user-images.githubusercontent.com/28081004/224581608-0b5a2a19-85c2-4968-a103-577192038d36.png)
+current gmail version has a buffer to prevent spam :)
 ✅ PASSED GOOGLE VIRUS SCAN
 
 ![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
