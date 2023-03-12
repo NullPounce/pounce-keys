@@ -5,6 +5,9 @@
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys) 
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/NullPounce/Pounce-Keys)    
 ![GitHub Repo 2.2 stars](https://img.shields.io/github/downloads/nullpounce/pounce-keys/2.1/total) 
+![Linode](https://img.shields.io/badge/GMAIL-DISCORD-green)
+![gmail](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Gmail/total?color=purple&label=Gmail-Downloads)
+![discord](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Discord/total?color=purple&label=Discord-Downloads)
 
 <!-- PROJECT LOGO -->
 <br />
