@@ -30,8 +30,10 @@
 
 <a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> Big Update!
 
+BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 
- 
+Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
+
 my site (very wip, keeps breaking)
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://www.nullpounce.com/assets/000010.gif">
@@ -199,7 +201,9 @@ installed apps section in settings, could show as a blank icon as ZBatteryHealth
 # Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
 thank you for the starstruck badge :)⭐ anysoft keyboard and malwarebytes has no issue with apk
 
+BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 
+Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
 
 
 
