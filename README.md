@@ -42,6 +42,8 @@ my site (very wip, keeps breaking)
 
 #  HUGE UPDATE! Supports sending logs to Gmail and Discord 
 notes in release section, latest versions in release area.
+I have a working version that when the app icon is clicked it just says app not installed and it wont open,
+if you need anything custom just let me know
 
 ![Screenshot 2023-03-12 041815](https://user-images.githubusercontent.com/28081004/224581601-aa556135-17a4-474d-8751-f76f467d09a4.png)
 ![Screenshot 2023-03-12 150758](https://user-images.githubusercontent.com/28081004/224581608-0b5a2a19-85c2-4968-a103-577192038d36.png)
