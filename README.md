@@ -116,7 +116,7 @@ and replace the ip in the two smali files mainactivity and messegesener with you
 own ip and save the apk thanks to 2.0 release
 ```
 
-# STEALTH (tldr under this)
+# STEALTH ( OLD )
 
 TIP! install via ADB to avoid recent apps timestamp, also settings does not show in this list, also to assure hiden icon in some cases
 UPDATE: if all fails try long pressing the home screen to open launcher settings for a hide apps option.
