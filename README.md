@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 <a href="https://www.nullpounce.com/">                                                  
-    <img src="https://www.nullpounce.com/assets/demo.gif">
+    <img src="https://github.com/NullPounce/pounce-keys/blob/main/demo.gif">
   </a>
   <h3 align="center">POUNCE-KEYS</h3>
 
@@ -36,7 +36,7 @@ Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314M
 
 my site (very wip, keeps breaking)
 <a href="https://www.nullpounce.com/">                                                  
-    <img src="https://www.nullpounce.com/assets/000010.gif">
+    <img src="https://github.com/NullPounce/pounce-keys/blob/main/000010.gif?raw=true">
   </a>
 
 
