@@ -9,6 +9,9 @@
 ![gmail](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Gmail/total?color=purple&label=Gmail-Downloads)
 ![discord](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Discord/total?color=purple&label=Discord-Downloads)
 
+# UPDATE: I'm now single and my living situation is not ideal, I don't know if I'll ever be back or update this again.
+:(
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
