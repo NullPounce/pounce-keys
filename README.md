@@ -29,6 +29,10 @@
   </p>
 </div>
 
+UPDATE OCT 23/ 
+APK editor studio does not seem to work on the Gmail and Discord versions so i'll try to make a video on a quick file edit and a 
+graddle sync from source. Still works just build from source, I'm working on it. (Windows version preview in Discord "FUD")
+
 come check out my blog https://nullpounce.blog/
 <a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
 
@@ -36,7 +40,7 @@ BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 
 Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
 
-my site (very wip, keeps breaking)
+my site 
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://github.com/NullPounce/pounce-keys/blob/main/000010.gif?raw=true">
   </a>
@@ -52,7 +56,7 @@ get apk editor studio from here https://qwertycube.com/apk-editor-studio/downloa
 notes in release section, latest versions in release area.
 I have a working version that when the app icon is clicked it just says app not installed and it wont open,
 if you need anything custom just let me know, also the discord and java listener version could be changed to
-have a buffer showing 200 logs at a time vs non stop, blovks vs lines of spam. just let me know.
+have a buffer showing 200 logs at a time vs non stop, blocks vs lines of spam. just let me know.
 
 ![Screenshot 2023-03-12 041815](https://user-images.githubusercontent.com/28081004/224581601-aa556135-17a4-474d-8751-f76f467d09a4.png)
 ![Screenshot 2023-03-12 150758](https://user-images.githubusercontent.com/28081004/224581608-0b5a2a19-85c2-4968-a103-577192038d36.png)
@@ -105,7 +109,7 @@ android 9 and bellow for now replace icon with transparent one in a icon editor
 jdk19 
 
 ```
-wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+wget  wget https://download.oracle.com/java/19/archive/jdk-19_linux-x64_bin.deb
 
 sudo apt-get -qqy install ./jdk-19_linux-x64_bin.deb
 
