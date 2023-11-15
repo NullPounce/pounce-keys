@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_time_input_padding_bottom">0.0dip</dimen>
+</resources>
