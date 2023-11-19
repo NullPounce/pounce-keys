@@ -11,6 +11,7 @@
 
 NEW UPDATE! check the issues page and the new release section, new update
 now includes Builder's! for windows and linux
+come join my discord https://discord.gg/gq5vP9z648
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
