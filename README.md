@@ -31,6 +31,8 @@ come join my discord https://discord.gg/gq5vP9z648
   </p>
 </div>
 
+https://emalm.com/?v=_LTlv
+
 UPDATE OCT 27th
 APK editor studio does not seem to work so please use https://github.com/AndnixSH/APKToolGUI
 
