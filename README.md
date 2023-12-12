@@ -9,7 +9,6 @@
 ![gmail](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Gmail/total?color=purple&label=Gmail-Downloads)
 ![discord](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Discord/total?color=purple&label=Discord-Downloads)
 
-Signal does not know what there talking about https://twitter.com/NullPounce/status/1734329687537549360     go share some love
 
 NEW UPDATE! check the issues page and the new release section, new update
 now includes Builder's! for windows and linux
