@@ -34,8 +34,15 @@ come join my discord https://discord.gg/gq5vP9z648
 
 https://emalm.com/?v=_LTlv
 
-UPDATE OCT 27th
-APK editor studio does not seem to work so please use https://github.com/AndnixSH/APKToolGUI
+
+
+https://github.com/NullPounce/pounce-keys/assets/28081004/33575afb-68f7-4b92-b90d-3b9036e5e7fe             
+
+https://github.com/NullPounce/pounce-keys/assets/28081004/57c40085-ee6a-47c3-b27a-b2d89917d59e
+
+
+
+
 
 come check out my blog https://nullpounce.blog/
 <a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
