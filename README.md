@@ -242,6 +242,8 @@ If you've found my work to be valuable, I would greatly appreciate your support,
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
 
 # credits
+
+https://github.com/OmGodse/Notally
 original keylog apk forked from https://github.com/shivamsuyal/Android-Keylogger (current version barely uses its code)
 
 icon "https://www.flaticon.com/free-icon/keylogger_8147179?term=keylogger&page=1&position=42&origin=search&related_id=8147179
