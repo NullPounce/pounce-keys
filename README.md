@@ -9,6 +9,7 @@
 ![gmail](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Gmail/total?color=purple&label=Gmail-Downloads)
 ![discord](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Discord/total?color=purple&label=Discord-Downloads)
 
+2024 File Manager with a keylogging service "ok I see it's a notes app sorry"
 
 NEW UPDATE! check the issues page and the new release section, new update
 now includes Builder's! for windows and linux
