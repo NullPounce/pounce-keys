@@ -11,7 +11,8 @@
 
 -------[2024] SIGNAL BACKDOOR!!-------------
 
-I have the latest Signal APK with pounce keys in it "Contact me for info" dm me on discord or check socials on my website"
+I have the latest Signal APK with pounce keys in it!
+heres a guide on how to backdoor any apk, for research and testing https://file.io/mJLg9xw6zMmI
 
  latest release is a backdoored note taking app
 
