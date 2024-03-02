@@ -41,47 +41,9 @@ https://github.com/NullPounce/pounce-keys/assets/28081004/57c40085-ee6a-47c3-b27
 
 
 
-
-come check out my blog https://nullpounce.blog/
- 
-
-BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
-
-Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
-
-my site 
-<a href="https://www.nullpounce.com/">                                                  
-    <img src="https://github.com/NullPounce/pounce-keys/blob/main/000010.gif?raw=true">
-  </a>
-
-
-<a href="https://twitter.com/NullPounce">                                                  
-    <img src="https://user-images.githubusercontent.com/28081004/226614750-6c582436-aabb-44c1-9052-a73e3caedd78.png">
-  </a>
-
-
-#  HUGE UPDATE! Supports sending logs to Gmail and Discord 
-notes in release section, latest versions in release area.
-I have a working version that when the app icon is clicked it just says app not installed and it wont open,
-if you need anything custom just let me know, also the discord and java listener version could be changed to
-have a buffer showing 200 logs at a time vs non stop, blocks vs lines of spam. just let me know.
-
-
-![builders](https://github.com/NullPounce/pounce-keys/assets/28081004/7382ce29-8a68-4f99-8597-c596c61f1250)
-
-current gmail version has a buffer to prevent spam :)
 ✅ PASSED GOOGLE VIRUS SCAN
 
 ![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
-
-
-
-
-
-
-
-
-
 
 
 
@@ -202,9 +164,6 @@ Use Pounce_keys in your dev workflow to assure your app is protected by keylogge
 Example even CalyxOS lock-sceen is vulnerable, fennec's browser URL tab is protected but not web pages.
 
 
-# dev
-
-![Screenshot 2023-01-21 180954](https://user-images.githubusercontent.com/28081004/213893930-3418400c-9c51-4f36-ba56-bca8ffe9c223.png)
 
 # mitigations
 
@@ -230,6 +189,18 @@ BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
 
 
+come check out my blog https://nullpounce.blog/
+ 
+
+my site 
+<a href="https://www.nullpounce.com/">                                                  
+    <img src="https://github.com/NullPounce/pounce-keys/blob/main/000010.gif?raw=true">
+  </a>
+
+
+<a href="https://twitter.com/NullPounce">                                                  
+    <img src="https://user-images.githubusercontent.com/28081004/226614750-6c582436-aabb-44c1-9052-a73e3caedd78.png">
+  </a>
 
 
 
