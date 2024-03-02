@@ -9,18 +9,6 @@
 ![gmail](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Gmail/total?color=purple&label=Gmail-Downloads)
 ![discord](https://img.shields.io/github/downloads/nullpounce/pounce-keys/Pounce-Keys-Discord/total?color=purple&label=Discord-Downloads)
 
--------[2024] SIGNAL BACKDOOR!!-------------
-
-I have the latest Signal APK with pounce keys in it!
-heres a guide on how to backdoor any apk, for research and testing mega.nz/file/NXAikT4D#PgVuO8rBDeJXCzTCYx7EY297qcjHlEtwtQ-o-6Sr1fM
-
- latest release is a backdoored note taking app
-
-2024 File Manager with a keylogging service "ok I see it's a notes app sorry"
-
-NEW UPDATE! check the issues page and the new release section, new update
-now includes Builder's! for windows and linux
-come join my discord https://discord.gg/gq5vP9z648
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -40,6 +28,8 @@ come join my discord https://discord.gg/gq5vP9z648
   </p>
 </div>
 
+<a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 https://emalm.com/?v=_LTlv
 
 
@@ -53,7 +43,7 @@ https://github.com/NullPounce/pounce-keys/assets/28081004/57c40085-ee6a-47c3-b27
 
 
 come check out my blog https://nullpounce.blog/
-<a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
+ 
 
 BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 
