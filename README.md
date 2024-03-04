@@ -58,6 +58,8 @@
 
 https://github.com/NullPounce/pounce-keys/assets/28081004/603ae2bd-1544-444d-a177-2cf1dda98541
 
+I just fixed the bug and now the alerts go away on service enable
+
 
 
 # Features 
