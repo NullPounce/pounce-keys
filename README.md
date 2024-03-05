@@ -127,6 +127,16 @@ this works because the Gmail version is being used as a base
 
 # Manual Bulding
 
+part 1
+
+https://github.com/NullPounce/pounce-keys/assets/28081004/0406a386-a268-4668-af1b-515feba05e18
+
+part 2
+
+https://github.com/NullPounce/pounce-keys/assets/28081004/c48aebe5-fcfb-41fe-a877-3a767a9ee3e5
+
+
+
 Download [APK TOOL GUI](https://github.com/AndnixSH/APKToolGUI) and drag and drop the downloaded APK into the decompile tab
 
 nex open up the decompiled folder in a IDE "text editor" that supports opening a folder and doing a search and replace all method like Visual Studio
