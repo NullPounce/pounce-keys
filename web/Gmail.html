@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PounceKeys Gmail Builder</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: #d8d8d8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .gui {
+            background-color: #3c3c3c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+        }
+        .input-label {
+            color: #a94fd3;
+            margin-bottom: 10px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #a94fd3;
+            background-color: #474747;
+            color: #d8d8d8;
+            margin-bottom: 10px;
+        }
+        .message {
+            overflow-y: scroll;
+            max-height: 100px;
+            padding: 10px;
+            background-color: #474747;
+            color: #d8d8d8;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .replace-button {
+            background-color: #a94fd3;
+            color: #d8d8d8;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .replace-button:hover {
+            background-color: #8242a9;
+        }
+    </style>
+</head>
+<body>
+
+<h2>PounceKeys Gmail Builder</h2>
+
+<div class="container">
+    <div class="gui">
+        <label for="gmail" class="input-label">Gmail:</label>
+        <input type="text" id="gmail" class="input-field">
+        <label for="password" class="input-label">App Password:</label>
+        <input type="text" id="password" class="input-field">
+        <label for="buffer_send_size" class="input-label">Buffer Send Size:</label>
+        <input type="text" id="buffer_send_size" class="input-field">
+        <button class="replace-button" onclick="replaceValues()">Replace Values</button>
+        <div id="message" class="message"></div>
+    </div>
+</div>
+
+<script src="eel.js"></script>
+<script>
+    async function replaceValues() {
+        const gmail = document.getElementById("gmail").value;
+        const password = document.getElementById("password").value;
+        const bufferSendSize = document.getElementById("buffer_send_size").value;
+        const messageDiv = document.getElementById("message");
+
+        messageDiv.innerHTML = "Replacing values in XML files...";
+
+        const response = await eel.replace_values(gmail, password, bufferSendSize)();
+
+        messageDiv.innerHTML = response;
+
+        // Update messageDiv again to show "Values updated!" message
+        messageDiv.innerHTML = "Values updated!";
+    }
+</script>
+
+</body>
+</html>
