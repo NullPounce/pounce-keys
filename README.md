@@ -12,6 +12,8 @@
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://github.com/NullPounce/pounce-keys/blob/main/demo.gif">
   </a>
+    
+ I can provide a pre-built APK for a few cups of coffee and give you access to the logs, DM me in Discord "Consulting offered"
   <h3 align="center">Android Keylogger</h3>
 
   <p align="center">
