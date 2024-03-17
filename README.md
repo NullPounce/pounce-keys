@@ -30,7 +30,9 @@
 </div>
 
 <a href="https://www.buymeacoffee.com/NullPounce"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee <3&emoji=&slug=NullPounce&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
+BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 
+Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
  
 # Download (JKD19 required for the new builder)
 [Builder](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKey's)
