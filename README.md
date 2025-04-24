@@ -13,7 +13,7 @@
     <img src="https://github.com/NullPounce/pounce-keys/blob/main/demo.gif">
   </a>
     
- I can provide a pre-built APK for a few cups of coffee and give you access to the logs, DM me in Discord "Consulting offered"
+ I can provide a pre-built APK for a few cups of coffee (buy me a coffee is dead, kofi, bitcoin, and monero.) and give you access to the logs, DM me in Discord "Consulting offered"
 
 
 [Web Panel Demo](http://46.4.114.111:4682/logs.html)
@@ -29,7 +29,7 @@
     ·
     <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
     .
-    <a href="https://discord.com/invite/gq5vP9z648">Discord</a>
+    <a href="https://discord.gg/x5ExJgqPQ6">Discord</a>
   </p>
 </div>
 
