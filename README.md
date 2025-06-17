@@ -4,6 +4,8 @@
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys)     
 ![Linode](https://img.shields.io/badge/GMAIL-DISCORD-green)
 
+DM me on Discord for new Windows 11 FUD
+
 a new way to support me at my new website: https://www.dupesweep.com (a duplicate file manager and file type sorter)
 
 <!-- PROJECT LOGO -->
