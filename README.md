@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/NullPounce/Pounce-Keys)     
 ![Linode](https://img.shields.io/badge/GMAIL-DISCORD-green)
 
-DM me on Discord for new Windows 11 FUD
+FOR PENTESTING ANDROID APPS ONLY! THIS MAY BE ARCHIVED AND REWORKED DUE TO MISS USE
 
 a new way to support me at my new website: https://www.dupesweep.com (a duplicate file manager and file type sorter)
 
@@ -14,11 +14,9 @@ a new way to support me at my new website: https://www.dupesweep.com (a duplicat
 <a href="https://www.nullpounce.com/">                                                  
     <img src="https://github.com/NullPounce/pounce-keys/blob/main/demo.gif">
   </a>
-    
- I can provide a pre-built APK for a few cups of coffee (buy me a coffee is dead, kofi, bitcoin, and monero.) and give you access to the logs, DM me in Discord "Consulting offered"
 
 
-[Web Panel Demo](http://46.4.114.111:4682/logs.html)
+
 
   <h3 align="center">Android Keylogger</h3>
 
