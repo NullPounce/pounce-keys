@@ -29,7 +29,7 @@ a new way to support me at my new website: https://www.dupesweep.com (a duplicat
     ·
     <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
     .
-    <a href="https://discord.gg/x5ExJgqPQ6">Discord</a>
+    <a href="">Discord</a>
   </p>
 </div>
 
