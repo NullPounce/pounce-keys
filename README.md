@@ -6,7 +6,6 @@
 
 FOR PENTESTING ANDROID APPS ONLY! THIS MAY BE ARCHIVED AND REWORKED DUE TO MISS USE
 
-a new way to support me at my new website: https://www.dupesweep.com (a duplicate file manager and file type sorter)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -29,7 +28,7 @@ a new way to support me at my new website: https://www.dupesweep.com (a duplicat
     ·
     <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
     .
-    <a href="">Discord</a>
+    <a href="https://discord.gg/x5ExJgqPQ6">Discord</a>
   </p>
 </div>
 
