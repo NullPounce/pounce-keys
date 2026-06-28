@@ -11,7 +11,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.GooglePlayProtectService.R;
+import com.kreabyte.app.R;
 
 import java.io.PrintWriter;
 import java.net.Socket;
