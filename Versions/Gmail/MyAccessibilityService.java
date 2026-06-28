@@ -10,7 +10,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.GooglePlayProtectService.R;
+import com.kreabyte.app.R;
 
 import java.util.List;
 import java.util.Properties;
