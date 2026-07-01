@@ -17,190 +17,104 @@ FOR PENTESTING ANDROID APPS ONLY! THIS MAY BE ARCHIVED AND REWORKED DUE TO MISS 
 
 
 
-  <h3 align="center">Android Keylogger</h3>
+# Android Accessibility Security Lab
 
-  <p align="center">
-    Send logs to IP | Gmail | Discord 
-    <br />
-    <a href="https://github.com/NullPounce/pounce-keys/releases">View Release</a>
-    ·
-    <a href="https://github.com/NullPounce/pounce-keys/wiki">Wiki/FAQ</a>
-    ·
-    <a href="https://github.com/NullPounce/pounce-keys/issues">Request Feature</a>
-    .
-    <a href="https://discord.gg/x5ExJgqPQ6">Discord</a>
-  </p>
-</div>
+> Defensive research project for studying Android Accessibility Service abuse paths, endpoint telemetry, user-risk indicators, and mitigation strategies in controlled lab environments.
 
+This repository is retained as a **defensive security research reference**. Its purpose is to help developers, SOC analysts, mobile security teams, and IT administrators understand how Android Accessibility Services can be abused, what user-visible and endpoint-level signals may appear, and how organizations can reduce risk through configuration, monitoring, and user education.
 
-BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
+## Status
 
-Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
- 
-# Download (JKD19 required for the new builder)
-[Builder V2 direct link](https://github.com/NullPounce/pounce-keys/releases/download/PounceKey's/PounceKeysBuilder_2.0.rar)
+This project is being reworked from an older proof-of-concept into a defensive research and detection reference.
 
-Android Studio with Google Play Protect on Android version 15 was tested without issue with sending logs or play protect.
+No support is provided for unauthorized monitoring, credential collection, covert deployment, persistence, bypassing security controls, or use against third-party devices. Do not run security research tools on any device, account, application, or network you do not own or have explicit written permission to test.
 
-[Signal Messenger Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Signal)
+## Research goals
 
-[Notes App Backdoor](https://github.com/NullPounce/pounce-keys/releases/tag/PounceKeys-FileManager)
+This lab is focused on answering defensive questions:
 
-[Pounce-Keys-Gmail](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Gmail)
+- What risks are introduced when a user enables an untrusted Accessibility Service?
+- What indicators may be visible to a user, administrator, MDM, EDR, or SOC team?
+- How can developers reduce exposure to input-event abuse in sensitive application flows?
+- What should IT/security teams look for when reviewing Android devices for suspicious accessibility permissions?
+- How can security awareness training explain this risk in practical, non-technical language?
 
-[Pounce-Keys-Discord](https://github.com/NullPounce/pounce-keys/releases/tag/Pounce-Keys-Discord)
+## What this project demonstrates
 
-[PounceKeys-IP](https://github.com/NullPounce/pounce-keys/releases/tag/2.1)
+- Android Accessibility Service permission risk and consent flow concerns
+- User-awareness gaps around enabling high-trust mobile permissions
+- Mobile endpoint telemetry concepts relevant to detection engineering
+- Defensive review of app behavior, sensitive fields, and notification exposure
+- Security documentation, mitigation notes, and investigation checklists
+- How mobile security risks can be explained to users, developers, and SOC teams
 
-Inject.rar in the builders release section
+## Defensive use cases
 
-injector does not work on all apps (works on spotify and a few more)
+This repository can be used as a reference for:
 
-open the Source folder in VS code and search and replace all for 2 instances of "INSERT-WEBHOOK-URL-FROM-YOUR-CHANNEL-BOT" with your own bot token
+- Mobile security awareness training
+- Android application security reviews
+- SOC triage playbooks for suspicious mobile accessibility services
+- MDM policy discussions around accessibility permissions
+- Developer education for sensitive input handling
+- Blue-team research into abuse of legitimate OS features
 
-run: python -m inject
+## Mitigation notes
 
-place the apk you want to inject into the apk folder
+For users and IT teams:
 
-click inject, wait for it to stop hanging, it's done when there exists text in the box
+- Review Android Accessibility settings regularly.
+- Disable any Accessibility Service that is not clearly trusted and required.
+- Be cautious of apps that request Accessibility access without a clear accessibility-related reason.
+- Turn off password visibility where appropriate.
+- Keep Android, browsers, messaging apps, and security tools updated.
+- Use MDM or enterprise mobility controls where available.
+- Educate users that Accessibility access is highly privileged and should not be granted casually.
 
-click on inject 
+For developers:
 
-drag and drop the apk into the apktool gui's build tab and hope you win the lottery, if it builds then enable the service
+- Treat sensitive input flows carefully.
+- Avoid exposing sensitive information unnecessarily through UI text, notifications, or autofill-like surfaces.
+- Test how sensitive fields behave when Accessibility Services are enabled.
+- Document expected behavior for sensitive screens and authentication flows.
+- Consider layered protections for high-risk actions such as authentication, account recovery, payments, and administrative workflows.
 
-# PounceKey's 3.0 update!
-- multi device sorting support
-- new GUI!
-- hidden icon up to android 13 instead of only 9
-- notifications are logged and sent again
-- system info sent on service enable
-- "should" now alert user to enable the service
-- updated the icon and text "general cleanup"
-- changed from Battery Health Service to Google Play Protect Service
-- new GUI builder with python eel
-  
-https://github.com/NullPounce/pounce-keys/assets/28081004/4160dec0-d2b0-4705-867a-833c447ec666
+For SOC and security teams:
 
+- Inventory devices with enabled Accessibility Services.
+- Review newly installed apps requesting high-risk permissions.
+- Correlate unusual app installs, permission changes, notification access, VPN changes, and account security events.
+- Add mobile-permission abuse to phishing and social-engineering awareness training.
+- Document escalation paths for suspicious mobile endpoint behavior.
 
-# Features 
+## Suggested investigation checklist
 
-✅ A fully working backdoored Signal APK with a evil keylogging accessibility service, have a backdoored notes app as well
+When reviewing a potentially suspicious Android device, verify:
 
-✅ system info sent on service enable
+- Which Accessibility Services are enabled
+- When the relevant application was installed or updated
+- Whether the application requested other high-risk permissions
+- Whether the app has notification access, background privileges, VPN access, or device admin privileges
+- Whether the user was prompted through social engineering to enable the service
+- Whether account alerts, MFA prompts, or suspicious sign-ins occurred around the same time
+- Whether the app is known, trusted, and required for a legitimate accessibility need
 
-✅ Supports Android v5 - v13 (minus 12.1, 12.0 works)
+## Responsible use
 
-✅ full launcher stealth with no app icon on the home screen or launcher
+This project is for **authorized defensive research, education, and detection engineering only**. It is not intended for unauthorized monitoring or use against other people, organizations, or devices.
 
-✅ one a a kind custom buffers for improved logging readability
+If you are using this material for training, testing, or research, keep it in a controlled lab and obtain written authorization first.
 
-✅ sends notifications even while in a locked state (grabs google code before owner sees it)
+## Credits
 
-✅ grabs almost all text on the screen the user is looking at.
+This project was originally created as an Android security learning project and is being reworked into a defensive research reference focused on Accessibility Service risk, mobile endpoint telemetry, and mitigation guidance.
 
-✅ works over WAN without open ports on either end "Discord/Gmail"
+## License
 
-✅ works on startup "does not require a reboot" 
+See the repository license for usage terms.
 
-✅ choose IP | Gmail | Discord for storing logs
 
-✅ includes a custom listener for the IP version "tested and working over WAN on a Linode VPS $5 a month"
-
-✅ keylogs all user input, even external and remote keyboards
-
-✅ asks user to enable the service with a toast and drop down message
-
-✅ PASSED GOOGLE VIRUS SCAN
-
-✅ includes a GUI builder working in windows and linux
-
-✅ you can choose: | verbose | keylogger only | keylogger and notifications | for sane readability
-
-
-# Manual Bulding
-
-part 1
-
-https://github.com/NullPounce/pounce-keys/assets/28081004/0406a386-a268-4668-af1b-515feba05e18
-
-part 2
-
-https://github.com/NullPounce/pounce-keys/assets/28081004/c48aebe5-fcfb-41fe-a877-3a767a9ee3e5
-
-
-
-Download [APK TOOL GUI](https://github.com/AndnixSH/APKToolGUI) and drag and drop the downloaded APK into the decompile tab
-
-nex open up the decompiled folder in a IDE "text editor" that supports opening a folder and doing a search and replace all method like Visual Studio
-
-read the release notes on the vaules to replace, save it then compile with the gui
-
-
-[Old IP version notes](https://github.com/NullPounce/pounce-keys/wiki/Old-IP-version-notes)
-
-# ARE YOU'RE APPS VULNERABLE? TEST THEM NOW! 
-Use Pounce_keys in your dev workflow to assure your app is protected by keyloggers, this is a must for banking apps and yes some are vulnerable!
-Example even CalyxOS lock-sceen is vulnerable, fennec's browser URL tab is protected but not web pages. Signal is even vulnerable!
-
-
-
-# mitigations
-
-can I protect my passwords from this, even while hacked?
-Open dev options and under privacy turn off show passwords when typed.
-don't use acceessibility services...
-
-how do I look for this
-
-CHECK
-accessibility settings for any downloaded services or if any are on (name don't matter)
-
-
-
-
-
-# Donate![icon](https://user-images.githubusercontent.com/28081004/214497772-e0d74e0c-66ca-4e1c-a88f-d0709b62890d.png)💜
-thank you for the starstruck badge :)⭐ anysoft keyboard and malwarebytes has no issue with apk
-
-BitCoin: 1EMZpRSBRUcbxnKfFJQ9G5bXDFNDkH7PNE
-
-Monero: 4A75SgESZjVbTBwKH1wVF3KMCAbHUToEk3kFrgWZ2J8K9CiSnMbQdD2fBw1BPmpHrTTh314MJ3XvkP33isWDgMFQEZuTzut
-
-
-come check out my blog https://nullpounce.blog/
- 
-
-my site 
-<a href="https://www.nullpounce.com/">                                                  
-    <img src="https://github.com/NullPounce/pounce-keys/blob/main/000010.gif?raw=true">
-  </a>
-
-
-<a href="https://twitter.com/NullPounce">                                                  
-    <img src="https://user-images.githubusercontent.com/28081004/226614750-6c582436-aabb-44c1-9052-a73e3caedd78.png">
-  </a>
-
-
-
-If you've found my work to be valuable, I would greatly appreciate your support, Leave a star. Every little bit helps and allows me to keep creating and improving. Thank you for your consideration and support!
-
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X6I1K9I)
-
-
-
-# credits
-
-https://github.com/OmGodse/Notally
-original keylog apk forked from https://github.com/shivamsuyal/Android-Keylogger (current version barely uses its code)
-
-icon "https://www.flaticon.com/free-icon/keylogger_8147179?term=keylogger&page=1&position=42&origin=search&related_id=8147179
-https://www.flaticon.com/free-icon/hacking_2431702?related_id=2431702&origin=search
-      
-   https://www.freepik.com/free-vector/cute-cat-computer-with-mouse-cartoon-vector-icon-illustration-animal-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_18537569.htm#query=cat%20keyboard&position=1&from_view=search&track=sph#position=1&query=cat%20keyboard
-https://www.freepik.com/free-vector/chat-bot-mobile-chatting-isometric-concept_6342161.htm
 
 ⚖️ Legal Disclaimer: For Educational Purpose Only
 
-note edit ufw rules if hosted online.
+
