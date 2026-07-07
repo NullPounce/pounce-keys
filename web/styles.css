@@ -1,0 +1,99 @@
+body {
+    background-color: #3c3c3c;
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.label {
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #a94fd3;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-button {
+    margin-top: 10px;
+    background-color: #00BFFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover, .blue-button:hover {
+    background-color: #a94fd3;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    background-color: #474747;
+    color: #d8d8d8;
+    border: 1px solid #a94fd3;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.config-section {
+    margin-top: 20px;
+}
+
+.config-section h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.config-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Added styles for image buttons */
+.config-buttons img, .choose-logs-location img {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for image buttons */
+.config-buttons img:hover, .choose-logs-location img:hover {
+    filter: brightness(120%);
+}
+
+/* Click animation for image buttons */
+.config-buttons img:active, .choose-logs-location img:active {
+    animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
